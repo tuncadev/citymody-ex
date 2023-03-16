@@ -29,7 +29,7 @@ define( 'DB_USER', 'citymody_dev' );
 define( 'DB_PASSWORD', 'd)3)j3EE7v' );
 
 /** Database hostname */
-define( 'DB_HOST', 'citymody.mysql.tools' );
+ define( 'DB_HOST', 'citymody.mysql.tools' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
