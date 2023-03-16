@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-25 15:54:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: tr\n"
+"Project-Id-Version: WP Job Manager - Application Deadline\n"
+
+#: wp-job-manager-application-deadline.php:381
+msgid "Expires"
+msgstr "Süresi doluyor"
+
+#: wp-job-manager-application-deadline.php:378
+#: wp-job-manager-application-deadline.php:433
+msgid "Closing Date"
+msgstr "Bitiş Tarihi"
+
+#: wp-job-manager-application-deadline.php:345
+msgid "Closes"
+msgstr "Bitiyor"
+
+#: wp-job-manager-application-deadline.php:345
+msgid "Closed"
+msgstr "Kapalı"
+
+#: wp-job-manager-application-deadline.php:270
+msgid "Please enter a valid closing date."
+msgstr "Lütfen geçerli bir bitiş tarihi girin."
+
+#: wp-job-manager-application-deadline.php:248
+msgid "Closing date"
+msgstr "Bitiş tarihi"
+
+#: wp-job-manager-application-deadline.php:242
+msgid "Deadline for new applicants. The listing will end automatically after this date."
+msgstr "Yeni başvuran adaylar için son tarih. Kayıt bu tarihten sonra otomatik olarak sona erer."
+
+#: wp-job-manager-application-deadline.php:240
+msgid "Deadline for new applicants."
+msgstr "Yeni başvuran adaylar için son tarih."
+
+#: wp-job-manager-application-deadline.php:215
+msgid "Application closing date"
+msgstr "Başvuru bitiş tarihi"
+
+#: wp-job-manager-application-deadline.php:149
+msgid "Enable automatic expiration"
+msgstr "Otomatik sonlandırmayı etkinleştir"
+
+#: wp-job-manager-application-deadline.php:148
+msgid "Automatic deadline expiry"
+msgstr "Otomatik son tarih"
+
+#: wp-job-manager-application-deadline.php:105
+msgid "<em>WP Job Manager - Application Deadline</em> requires WP Job Manager %s (you are using %s)."
+msgstr "<em>WP Job Manager - Application Deadline</em>, WP Job Manager %s gerektirir (siz %s kullanıyorsunuz)."
+
+#: wp-job-manager-application-deadline.php:91
+msgid "<em>WP Job Manager - Application Deadline</em> requires WP Job Manager to be installed and activated."
+msgstr "<em>WP Job Manager - Application Deadline</em>, WP Job Manager'ın yüklenip etkinleştirilmesini gerektirir."
+
