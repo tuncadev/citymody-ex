@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WorkScout-Core - WorkScout WPJM Plugin by Purethemes\n"
 "POT-Creation-Date: 2022-09-23 21:08+0200\n"
-"PO-Revision-Date: 2023-03-16 13:35+0000\n"
+"PO-Revision-Date: 2023-03-17 08:04+0000\n"
 "Last-Translator: \n"
 "Language-Team: Türkçe\n"
 "MIME-Version: 1.0\n"
@@ -2312,7 +2312,7 @@ msgstr ""
 #: templates/sidebar-jobs.php:58 templates/sidebar-resumes.php:7
 #: vc_map/imagebox.php:41
 msgid "Region"
-msgstr ""
+msgstr "Bölge"
 
 #: templates/account/registration-form.php:112
 msgid "Register Your Account"

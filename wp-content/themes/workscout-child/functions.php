@@ -5,12 +5,14 @@ function workscout_enqueue_styles() {
 
 }
 
- 
 function remove_parent_theme_features() {
    	
 }
 add_action( 'after_setup_theme', 'remove_parent_theme_features', 10 );
 
+
+ /* Here we add a form field into Create New Resume Form */
+ 
 // Add field to frontend
 add_filter( 'submit_resume_form_fields', 'wpjms_frontend_resume_form_fields' );
 function wpjms_frontend_resume_form_fields( $fields ) {

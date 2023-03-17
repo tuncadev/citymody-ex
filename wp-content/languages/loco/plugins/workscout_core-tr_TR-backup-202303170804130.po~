@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WorkScout-Core - WorkScout WPJM Plugin by Purethemes\n"
 "POT-Creation-Date: 2022-09-23 21:08+0200\n"
-"PO-Revision-Date: 2023-03-16 13:30+0000\n"
+"PO-Revision-Date: 2023-03-16 13:35+0000\n"
 "Last-Translator: \n"
 "Language-Team: Türkçe\n"
 "MIME-Version: 1.0\n"
@@ -1091,7 +1091,7 @@ msgstr ""
 #: includes/class-workscout-core-fields.php:141
 #: includes/class-workscout-core-fields.php:213
 msgid "External \"Apply for Job\" link"
-msgstr ""
+msgstr " \"İşe Başvur\" dış site bağlantısı"
 
 #: vc_map/counterbox.php:21
 msgid "Extra class name"
@@ -1297,7 +1297,7 @@ msgstr ""
 #: includes/class-workscout-core-fields.php:61
 #: includes/class-workscout-core-fields.php:148
 msgid "Header Image"
-msgstr ""
+msgstr "Başlık Resmi"
 
 #: vc_map/headline.php:10
 msgid "Headline"
@@ -1707,7 +1707,7 @@ msgstr ""
 #: templates/sidebar-jobs.php:101 templates/sidebar-resumes.php:38
 #: templates/sidebar-resumes.php:47 vc_map/jobs.php:157
 msgid "Location"
-msgstr ""
+msgstr "Konum"
 
 #: includes/class-workscout-core-wpjm-settings.php:127
 msgid "Location field on Jobs page"
@@ -1821,11 +1821,11 @@ msgstr ""
 
 #: includes/class-workscout-core-fields.php:105
 msgid "Maximum rate/h"
-msgstr ""
+msgstr "Maksimum ücret/s"
 
 #: includes/class-workscout-core-fields.php:122
 msgid "Maximum Salary"
-msgstr ""
+msgstr "En Yüksek Yıllık Maaş"
 
 #: vc_map/counterbox.php:58
 msgid "Members"
@@ -1864,7 +1864,7 @@ msgstr "Minimum ücret/s"
 
 #: includes/class-workscout-core-fields.php:115
 msgid "Minimum Salary"
-msgstr ""
+msgstr "En Düşük Yıllık Maaş"
 
 #: vc_map/jobs.php:47 vc_map/pricing_woo_tables.php:55
 #: vc_map/recent_blog.php:54 vc_map/spotlight_jobs.php:32
@@ -2254,7 +2254,7 @@ msgstr ""
 
 #: includes/class-workscout-core-fields.php:192
 msgid "Rate/h (maximum) "
-msgstr ""
+msgstr "Ücret/s (maksimum)"
 
 #: includes/class-workscout-core-fields.php:186
 #: includes/class-workscout-core-fields.php:295
