@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WorkScout\n"
 "POT-Creation-Date: 2022-09-23 21:08+0200\n"
-"PO-Revision-Date: 2023-03-16 13:34+0000\n"
+"PO-Revision-Date: 2023-03-19 13:23+0000\n"
 "Last-Translator: \n"
 "Language-Team: Türkçe\n"
 "MIME-Version: 1.0\n"
@@ -4205,7 +4205,7 @@ msgstr[1] ""
 
 #: template-parts/single-job-classic.php:100 template-parts/single-job.php:102
 msgid "This position has been filled"
-msgstr "Bu proje için adat seçilmiştir"
+msgstr "Bu proje için aday seçilmiştir"
 
 #: inc/class-tgm-plugin-activation.php:355
 #, php-format

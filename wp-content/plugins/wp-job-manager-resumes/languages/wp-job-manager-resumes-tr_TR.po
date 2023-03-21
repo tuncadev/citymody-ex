@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WP Job Manager - Resume Manager v1.8.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-resumes\n"
 "POT-Creation-Date: 2015-01-28 10:18:45+00:00\n"
-"PO-Revision-Date: 2023-03-17 08:03+0000\n"
+"PO-Revision-Date: 2023-03-18 08:28+0000\n"
 "Last-Translator: \n"
 "Language-Team: Türkçe\n"
 "Language: tr_TR\n"
@@ -2255,7 +2255,7 @@ msgstr ""
 # @ wp-job-manager-resumes
 #: includes/forms/class-wp-resume-manager-form-submit-resume.php:221
 msgid "Your email"
-msgstr "Adayın E-postası"
+msgstr "E-postanız"
 
 # @ wp-job-manager-resumes
 #: includes/forms/class-wp-resume-manager-form-submit-resume.php:216
