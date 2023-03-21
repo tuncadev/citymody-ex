@@ -11,8 +11,8 @@ function remove_parent_theme_features() {
 add_action( 'after_setup_theme', 'remove_parent_theme_features', 10 );
 
 
- /* Here we add a form field into Create New Resume Form */
- 
+ /* Here we add a form field into Create New Resume Form 
+
 // Add field to frontend
 add_filter( 'submit_resume_form_fields', 'wpjms_frontend_resume_form_fields' );
 function wpjms_frontend_resume_form_fields( $fields ) {
@@ -35,7 +35,5 @@ function wpjms_color_field_email_message( $message, $resume_id ) {
 $message[] = "\n" . "Favourite Color: " . get_post_meta( $resume_id, '_candidate_color', true );
 return $message;
 }
-
-
-
+*/
 ?>
