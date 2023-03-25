@@ -216,6 +216,9 @@ border-top: solid 1px #cccfff;
   background: transparent;
   color: #2eb5e3;
 }
+.ilan_content i {
+  font-family: "Font Awesome 5 Free";
+}
 .f_blue {
   color: #2876bb;
 }
