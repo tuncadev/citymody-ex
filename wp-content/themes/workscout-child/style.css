@@ -32,7 +32,14 @@ Template:  workscout
     flex-wrap: wrap;
   }
 }
-
+/* Body / Html */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0;
+}
 /* Home */
 .home_header {
   font-size: 3rem;
