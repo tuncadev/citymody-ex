@@ -216,8 +216,12 @@ border-top: solid 1px #cccfff;
   background: transparent;
   color: #2eb5e3;
 }
-.ilan_content i {
+.ilan_content a i {
   font-family: "Font Awesome 5 Free";
+  margin-top: 7px;
+  display: block;
+  float: right;
+  margin-left: 5px;
 }
 .f_blue {
   color: #2876bb;
