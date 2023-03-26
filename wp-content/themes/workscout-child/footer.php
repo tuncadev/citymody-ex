@@ -145,25 +145,6 @@
                         </div>
                     <?php } ?>
                 </div>
-                <div class="footer-new-bottom-right">
-
-                                <?php /* get the slider array */ 
-                                $footericons = Kirki::get_option('workscout', 'pp_footericons', array());
-                                if (!empty($footericons)) {
-
-                                    echo '<ul class="new-footer-social-icons">';
-                                    foreach ($footericons as $icon) {
-                                        if ($icon['icons_service'] == 'telegram') {
-                                            echo '<li><a target="_blank" title="' . esc_attr($icon['icons_service']) . '" href="' . esc_url($icon['icons_url']) . '"><i class="fa fa-' . $icon['icons_service'] . '"></i></a></li>';
-                                        } else {
-                                            echo '<li><a target="_blank" title="' . esc_attr($icon['icons_service']) . '" href="' . esc_url($icon['icons_url']) . '"><i class="icon-' . $icon['icons_service'] . '"></i></a></li>';
-                                        }
-                                    }
-                                    echo '</ul>';
-                                }
-                                ?>
-                                
-                            </div>
             </div>
         </div>
         <!-- Footer Middle Section / End -->
