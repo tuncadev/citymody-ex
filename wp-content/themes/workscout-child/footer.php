@@ -14,9 +14,7 @@
 <?php if (!function_exists('elementor_theme_do_location') || !elementor_theme_do_location('footer')) { ?>
     <!-- Footer
 ================================================== -->
-    <div class="margin-top-45"></div>
-
-    <!-- Footer
+     <!-- Footer
 ================================================== -->
     <div id="footer-new">
 
