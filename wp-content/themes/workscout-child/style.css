@@ -12,6 +12,10 @@ Domain Path: /languages/
 Tags: light, responsive-layout, post-formats, theme-options, translation-ready, two-columns
 Template:  workscout
 */
+body,
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
 /* Mobile */
 @media only screen and (max-width: 600px) {
   .home_category_section img {
@@ -32,11 +36,27 @@ Template:  workscout
     flex-wrap: wrap;
   }
 }
+@media only screen and (max-width: 780px) { 
+	.ilan_ver_container {
+		flex-direction: column;
+		align-items: center
+	}
+	.ilan_ver_container .ilan_content {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.ilan_ver_container .ilan_content a {
+	margin-top: 30px;
+	}
+	
+}
 /* Body / Html */
-body,
-html {
-  font-family: "Source Sans Pro", sans-serif;
-  text-transform: none;
+
+p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0;
 }
 /* Home */
 .home_header {
@@ -173,20 +193,17 @@ border-top: solid 1px #cccfff;
   padding: 25px 25px 20px;
   background-color: #fff;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.1);
+  border: 2px solid #fff;
   border-radius: 10px;
   display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
   -webkit-box-pack: center;
-  justify-content: center;
   -webkit-box-orient: vertical;
-  flex-direction: column;
-  border: 2px solid #fff;
-}
-.ilan_ver_container .ilan_icon {
-  position: absolute;
 }
 .ilan_content {
   color: #666;
-  margin-left: 150px;
+
   text-align: right;
 }
 .ilan_content h4 {
@@ -214,12 +231,19 @@ border-top: solid 1px #cccfff;
   background: transparent;
   color: #2eb5e3;
 }
-.ilan_content a i {
-  font-family: "Font Awesome 5 Free";
-}
+
 .f_blue {
   color: #2876bb;
 }
-.fa-angle-right:before {
-  content: "\f105";
+.ilan_content a.turq {
+  background: #00c0cd;
+}
+.ilan_ver_container .ilan_content a:after {
+  content: "\203A";
+  font-weight: 900;
+  margin-left: 3px;
+  font-size: 22px;
+}
+.ilan_ver_container:hover {
+  box-shadow: 0 0 36px 0 rgba(44, 195, 251, 0.22);
 }
