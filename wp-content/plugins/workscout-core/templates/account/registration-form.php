@@ -43,6 +43,13 @@ if (defined('PWP_NAME')) { ?>
                 </p>
             <?php endif; ?>
 
+            <p>
+                <label for="workscout_user_email">
+                    <i class="ln ln-icon-Mail"></i>
+                    <input name="email" id="workscout_user_email" class="required" placeholder="<?php _e('Email', 'workscout_core'); ?>" type="email" />
+                </label>
+            </p>
+
             <?php if (get_option('workscout_display_password_field')) : ?>
                 <p>
                     <label for="reg_password">
@@ -50,29 +57,15 @@ if (defined('PWP_NAME')) { ?>
                     </label>
                 </p>
             <?php endif; ?>
+            <?php if (!get_option('workscout_display_password_field')) : ?>
 
-            <?php if (get_option('workscout_display_first_last_name')) : ?>
-                <p>
-                    <label for="first-name">
-                        <i class="ln ln-icon-Pen"></i>
-                        <input type="text" name="first_name" placeholder="<?php esc_html_e('First Name', 'workscout_core'); ?>" id="first-name">
-                    </label>
-                </p>
+<div class="notification password-notice notice closeable" style=" margin-top: 20px; margin-bottom: 0px;">
+    <p><?php esc_html_e('Password will be generated and sent to your email address.', 'workscout_core') ?></p>
+</div>
 
-                <p class="form-row form-row-wide">
-                    <label for="last-name">
-                        <i class="ln ln-icon-Pen"></i>
-                        <input type="text" name="last_name" placeholder="<?php esc_html_e('Last Name', 'workscout_core'); ?>" id="last-name">
-                    </label>
-                </p>
-            <?php endif; ?>
+<?php endif; ?>
 
-            <p>
-                <label for="workscout_user_email">
-                    <i class="ln ln-icon-Mail"></i>
-                    <input name="email" id="workscout_user_email" class="required" placeholder="<?php _e('Email', 'workscout_core'); ?>" type="email" />
-                </label>
-            </p>
+
 
 
 
@@ -111,13 +104,7 @@ if (defined('PWP_NAME')) { ?>
                 <?php wp_nonce_field('workscout-ajax-login-nonce', 'register_security'); ?>
                 <input type="submit" value="<?php esc_html_e('Register Your Account', 'workscout_core'); ?>" />
             </p>
-            <?php if (!get_option('workscout_display_password_field')) : ?>
 
-                <div class="notification password-notice notice closeable" style=" margin-top: 20px; margin-bottom: 0px;">
-                    <p><?php esc_html_e('Password will be generated and sent to your email address.', 'workscout_core') ?></p>
-                </div>
-
-            <?php endif; ?>
             <div class="notification reg-form-output error closeable" style="display: none; margin-top: 20px; margin-bottom: 0px;">
                 <p></p>
             </div>
