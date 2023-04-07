@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -89,10 +90,6 @@
          ],
          "Start translating everything": [
             "すべての翻訳を開始する"
-         ],
-         "%1$d language": [
-            "%1$d 言語",
-            "%1$d 言語"
          ],
          "Please wait...": [
             "お待ちください..."
@@ -368,7 +365,7 @@
             "hreflang"
          ],
          "Encode url?": [
-            "URLをエンコードしますか？\r\n"
+            "URLをエンコードしますか？"
          ],
          "Flags must be:": [
             "フラッグは必須："
@@ -505,8 +502,8 @@
          "Let WPML do the translating for you.": [
             "WPML に翻訳を任せます。"
          ],
-         "You need to have a valid account in order to continue.": [
-            "続行するには、有効なアカウントが必要です。"
+         "To use automatic translation, <a>sign up for pay-as-you-go</a> or <a2>assign credits to your site</a2>.": [
+            "自動翻訳を使用するには、 <a>利用時払いに登録する</a> か <a2>サイトにクレジットを割り当ててください</a2>。"
          ],
          "There was an error when loading the credit wizard.": [
             "クレジット ウィザードの読み込み中にエラーが発生しました。"
@@ -606,6 +603,9 @@
          ],
          "Ranking": [
             "ランキング"
+         ],
+         "You need to have a valid account in order to continue.": [
+            "続行するには、有効なアカウントが必要です。"
          ]
       }
    }

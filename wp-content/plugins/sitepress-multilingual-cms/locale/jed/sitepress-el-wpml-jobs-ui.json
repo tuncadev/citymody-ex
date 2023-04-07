@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "Draft — Pending review": [
@@ -58,7 +59,7 @@
             "Θέλω να επιμεληθώ αυτές τις μεταφράσεις."
          ],
          "Cancel": [
-            "Άκυρο"
+            "Ακύρωση"
          ],
          "This will remove the selected jobs from the Translations Queue without publishing them. What would you like to do with the translations?": [
             "Έτσι θα αφαιρεθούν οι επιλεγμένες εργασίες από την Ουρά μεταφράσεων, χωρίς να δημοσιευτούν. Τι θέλετε να κάνετε με τις μεταφράσεις;"
@@ -120,11 +121,17 @@
          "Automatic translation": [
             "Αυτόματη μετάφραση"
          ],
+         "TP ID: %d": [
+            "TP ID: %d"
+         ],
          "Reset": [
             "Επαναφορά"
          ],
          "Filter": [
             "Φιλτράρισμα"
+         ],
+         "ID (%s)": [
+            "Ταυτότητα (%s)"
          ],
          "Title (%s)": [
             "Τίτλος (%s)"
@@ -320,6 +327,9 @@
          ],
          "Pending review": [
             "Εκκρεμεί αναθεώρηση"
+         ],
+         "ID": [
+            "Αναγνωριστικό"
          ],
          "Type": [
             "Τύπος"

@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "From:": [
@@ -60,11 +61,17 @@
          "Publish right away but mark as not reviewed so I can take a look later": [
             "바로 게시하지만 나중에 살펴볼 수 있도록 검토되지 않음으로 표시합니다"
          ],
+         "Publish right away without reviewing": [
+            "검토하지 않고 바로 게시"
+         ],
          "Who will translate?": [
             "누가 번역할까요?"
          ],
          "Only myself": [
             "나만"
+         ],
+         "You will be the sole translator for this site.": [
+            "이 사이트의 유일한 번역가는 귀하입니다."
          ],
          "Users of this site": [
             "이 사이트의 사용자"
@@ -90,6 +97,12 @@
          "You will choose a user of this site and delegate the setup of translators to him/her. Choose this option when you are building a website for a client, who will set up translator users or choose a translation service.": [
             "이 사이트의 사용자를 선택하고 해당 사용자에게 번역가 설정을 위임할 수 있습니다. 번역가 사용자를 설정하거나 번역 서비스 제공자를 선택하게 될 고객을 위해 웹 사이트를 만들 때 이 옵션을 선택하십시오."
          ],
+         "Translate Everything Automatically": [
+            "모든 항목을 자동으로 번역"
+         ],
+         "Let WPML do the translating for you": [
+            "WPML에 번역을 맡겨보세요"
+         ],
          "Translates all your published content automatically": [
             "사용자의 게시된 모든 콘텐츠를 자동으로 번역합니다"
          ],
@@ -99,8 +112,14 @@
          "Instantly translates new content and updates translations whenever you edit a page or post": [
             "페이지나 게시물을 편집할 때마다 새 콘텐츠를 즉시 번역하고 번역을 업데이트합니다"
          ],
+         "You can review translations before publishing or hire professional reviewers": [
+            "게시하거나 전문 검토자를 고용하기 전에 번역을 검토할 수 있습니다"
+         ],
          "Affordable and fast": [
             "적당하고 빠름"
+         ],
+         "How would you like to translate the content?": [
+            "콘텐츠를 어떻게 번역하시겠습니까?"
          ],
          "Choose": [
             "선택"
@@ -357,8 +376,14 @@
          "Show error message": [
             "오류 메시지 표시"
          ],
+         "WPML is ready to translate your site": [
+            "WPML이 사용자의 사이트를 번역할 준비가 되었습니다"
+         ],
          "WPML has started translating your site": [
             "WPML에서 사이트 번역을 시작했습니다."
+         ],
+         "When you're done editing content, go to <s>WPML → Translation Management</s> to start translations.": [
+            "콘텐츠 편집을 마치면 <s>WPML → 번역 관리</s>로 이동하여 번역을 시작합니다."
          ],
          "View the status of the translations in <s>WPML → Translation Management</s>.": [
             "<s>WPML → Translation Management</s>에서 번역의 상태를 봅니다."
@@ -410,6 +435,9 @@
          ],
          "Get a key for this site": [
             "이 사이트용 키 받기"
+         ],
+         "Are you ready to start translating now?": [
+            "지금 번역을 시작할 준비가 되셨나요?"
          ],
          "Yes!": [
             "예!"

@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -159,11 +160,11 @@
          "Do nothing": [
             "何もしない"
          ],
-         "You need credits to use automatic translation.": [
-            "自動翻訳を利用するにはクレジットが必要です。"
-         ],
          "To assign content to a translator, first <a href=\"%s\" target=\"_blank\">add a translator</a> or <a href=\"%s\" target=\"_blank\">connect to a translation service</a>.": [
             "翻訳者にコンテンツを割り当てるには、まず、[<a href=\"%s\" target=\"_blank\">翻訳者を追加</a>] または [<a href=\"%s\" target=\"_blank\">翻訳サービスに接続</a>] します。"
+         ],
+         "You need credits to use automatic translation.": [
+            "自動翻訳を利用するにはクレジットが必要です。"
          ],
          "Translators Tab": [
             "トランスレータータブ"

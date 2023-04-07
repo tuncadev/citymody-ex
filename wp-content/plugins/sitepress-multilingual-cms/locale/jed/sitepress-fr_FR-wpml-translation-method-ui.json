@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -82,7 +83,7 @@
             "La traduction automatique fait appel à des crédits. %1$sEn savoir plus sur les crédits de traduction automatique%2$s"
          ],
          "You need credits to start translating everything.": [
-            "Il vous faut des crédits pour commencer à traduire."
+            "Des crédits sont requis pour commencer à traduire."
          ],
          "Cancel": [
             "Annuler"
@@ -281,7 +282,7 @@
             "Précédent"
          ],
          "Save": [
-            "Appliquer"
+            "Enregistrer"
          ],
          "Add a Translator": [
             "Ajouter un traducteur"
@@ -308,10 +309,10 @@
             "Le transfert du fichier %s a échoué."
          ],
          "Flag": [
-            "Drapeau"
+            "Indicateur"
          ],
          "Flag file": [
-            "Fichier drapeau"
+            "Fichier indicateur"
          ],
          "You just added  language. Next, select it as the site's default language or a translation language.": [
             "Vous venez d'ajouter une langue. À présent, sélectionnez-la comme la langue du site par défaut ou comme la langue de traduction."
@@ -505,8 +506,8 @@
          "Let WPML do the translating for you.": [
             "Confiez vos traductions à WPML."
          ],
-         "You need to have a valid account in order to continue.": [
-            "Vous devez détenir un compte valide pour pouvoir poursuivre."
+         "To use automatic translation, <a>sign up for pay-as-you-go</a> or <a2>assign credits to your site</a2>.": [
+            "Pour utiliser la traduction automatique, <a>abonnez-vous au paiement à l’utilisation</a> ou <a2>assignez des crédits à votre site</a2>."
          ],
          "There was an error when loading the credit wizard.": [
             "Une erreur est survenue en chargeant l’assistant de crédit."
@@ -606,6 +607,9 @@
          ],
          "Ranking": [
             "Classement"
+         ],
+         "You need to have a valid account in order to continue.": [
+            "Vous devez détenir un compte valide pour pouvoir poursuivre."
          ]
       }
    }

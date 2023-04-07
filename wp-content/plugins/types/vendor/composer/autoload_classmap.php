@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Enlimbo_Forms' => $vendorDir . '/toolset/toolset-common/toolset-forms/classes/class.eforms.php',
     'Exception_Invalid_Shortcode_Attr_Field' => $baseDir . '/application/models/shortcode/exceptions.php',
     'Exception_Invalid_Shortcode_Attr_Item' => $baseDir . '/application/models/shortcode/exceptions.php',
@@ -57,6 +58,8 @@ return array(
     'OTGS\\Toolset\\Common\\Condition\\Plugin\\FusionBuilder\\IsFusionBuilderActive' => $vendorDir . '/toolset/toolset-common/utility/condition/plugin/fusion-builder/active.php',
     'OTGS\\Toolset\\Common\\Condition\\Plugin\\Genesis\\IsGenesisActive' => $vendorDir . '/toolset/toolset-common/utility/condition/plugin/genesis/active.php',
     'OTGS\\Toolset\\Common\\Condition\\Plugin\\Kadence\\IsKadenceActive' => $vendorDir . '/toolset/toolset-common/utility/condition/plugin/kadence/active.php',
+    'OTGS\\Toolset\\Common\\Condition\\Plugin\\Stackable\\IsStackableActive' => $vendorDir . '/toolset/toolset-common/utility/condition/plugin/stackable/active.php',
+    'OTGS\\Toolset\\Common\\Condition\\Plugin\\TheEventsCalendar\\IsTheEventsCalendarPre600' => $vendorDir . '/toolset/toolset-common/utility/condition/plugin/the-events-calendar/pre-600.php',
     'OTGS\\Toolset\\Common\\Condition\\Plugin\\UltimateAddonsGutenberg\\IsUltimateAddonsGutenbergActive' => $vendorDir . '/toolset/toolset-common/utility/condition/plugin/ultimate-addons-gutenberg/active.php',
     'OTGS\\Toolset\\Common\\Condition\\Plugin\\UltimateAddonsGutenberg\\IsUltimateAddonsGutenbergPre123' => $vendorDir . '/toolset/toolset-common/utility/condition/plugin/ultimate-addons-gutenberg/pre-123.php',
     'OTGS\\Toolset\\Common\\Condition\\Plugin\\UltimateAddonsGutenberg\\UAGBGenerateAssetsCallable' => $vendorDir . '/toolset/toolset-common/utility/condition/plugin/ultimate-addons-gutenberg/uagb-generate-assets-callable.php',
@@ -1464,6 +1467,7 @@ return array(
     'Types_Helper_Condition_Views_Template_Missing' => $baseDir . '/application/models/helper/condition/views/template_missing.php',
     'Types_Helper_Condition_Views_Views_Exist' => $baseDir . '/application/models/helper/condition/views/views_exist.php',
     'Types_Helper_Condition_Views_Views_Missing' => $baseDir . '/application/models/helper/condition/views/views_missing.php',
+    'Types_Helper_Create_Abstract' => $baseDir . '/application/models/helper/create/a_create.php',
     'Types_Helper_Create_Content_Template' => $baseDir . '/application/models/helper/create/content_template.php',
     'Types_Helper_Create_Form' => $baseDir . '/application/models/helper/create/form.php',
     'Types_Helper_Create_Layout' => $baseDir . '/application/models/helper/create/layout.php',

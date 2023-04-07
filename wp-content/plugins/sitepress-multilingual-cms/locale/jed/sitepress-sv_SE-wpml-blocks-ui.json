@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "Advanced": [
@@ -108,8 +109,8 @@
          "Current language background": [
             "Aktuell språkbakgrund"
          ],
-         "Small": [
-            "Liten"
+         "Code": [
+            "Kod"
          ],
          "Normal": [
             "Normal"
@@ -122,6 +123,9 @@
          ],
          "X-Large": [
             "X-Large"
+         ],
+         "Small": [
+            "Liten"
          ],
          "Displays the WPML Language Switcher.": [
             "Visar WPML:s språkväxlare."

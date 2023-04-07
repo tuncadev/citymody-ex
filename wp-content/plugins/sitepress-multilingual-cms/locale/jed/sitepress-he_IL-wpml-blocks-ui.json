@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "Advanced": [
@@ -108,8 +109,8 @@
          "Current language background": [
             "רקע שפה נוכחית"
          ],
-         "Small": [
-            "קטן"
+         "Code": [
+            "קוד"
          ],
          "Normal": [
             "רגיל"
@@ -122,6 +123,9 @@
          ],
          "X-Large": [
             "גדול במיוחד"
+         ],
+         "Small": [
+            "קטן"
          ],
          "Displays the WPML Language Switcher.": [
             "מציג את מחליף השפה של WPML."

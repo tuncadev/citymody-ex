@@ -355,6 +355,7 @@ return array(
 'Types_Helper_Condition_Views_Template_Missing'                                                    => __DIR__ . '/models/helper/condition/views/template_missing.php',
 'Types_Helper_Condition_Views_Views_Exist'                                                         => __DIR__ . '/models/helper/condition/views/views_exist.php',
 'Types_Helper_Condition_Views_Views_Missing'                                                       => __DIR__ . '/models/helper/condition/views/views_missing.php',
+'Types_Helper_Create_Abstract'                                                                     => __DIR__ . '/models/helper/create/a_create.php',
 'Types_Helper_Create_Content_Template'                                                             => __DIR__ . '/models/helper/create/content_template.php',
 'Types_Helper_Create_Form'                                                                         => __DIR__ . '/models/helper/create/form.php',
 'Types_Helper_Create_Layout'                                                                       => __DIR__ . '/models/helper/create/layout.php',

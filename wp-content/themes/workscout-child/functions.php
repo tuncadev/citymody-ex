@@ -9,8 +9,7 @@ function remove_parent_theme_features() {
    	
 }
 add_action( 'after_setup_theme', 'remove_parent_theme_features', 10 );
-
-
+add_filter( 'use_widgets_block_editor', '__return_false' );
  /* Here we add a form field into Create New Resume Form 
 
 // Add field to frontend

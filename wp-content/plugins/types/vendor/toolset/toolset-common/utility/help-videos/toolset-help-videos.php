@@ -205,21 +205,37 @@ if( ! class_exists( 'Toolset_HelpVideo', false ) ) {
         const SLUG = 'toolset_video_tutorials';
         const SCREEN = 'admin_page_toolset_video_tutorials';
 
-        protected function __construct()
-        {
-            if ( is_admin() && function_exists('add_submenu_page') ) {
-                add_submenu_page(null, __('Video Tutorial'), '', 'manage_options', self::SLUG, array(&$this, 'load_template'));
-            }
+        protected function __construct() {
+			add_filter( 'toolset_filter_register_menu_pages', array( $this, 'register_in_menu' ), 999 );
         }
 
-        final public static function getInstance()
-        {
+        final public static function getInstance() {
             if (!self::$instance) {
                 self::$instance = new Toolset_VideoDetachedPage();
             }
 
             return self::$instance;
         }
+
+		public function register_in_menu( $pages ) {
+			global $pagenow;
+
+			if (
+				$pagenow == 'admin.php'
+				&& isset( $_GET['page'] )
+				&& $_GET['page'] ===  self::SLUG
+			) {
+				$pages[] = array(
+					'slug'			=> self::SLUG,
+					'menu_title'	=> __( 'Video Tutorial', 'toolset-common' ),
+					'page_title'	=> __( 'Video Tutorial', 'toolset-common' ),
+					'callback'		=> array( &$this, 'load_template' ),
+					'capability' 	=> 'manage_options',
+				);
+			}
+
+			return $pages;
+		}
 
         function load_template()
         {
@@ -240,5 +256,5 @@ if( ! class_exists( 'Toolset_HelpVideo', false ) ) {
         }
     }
 
-    add_action( 'admin_menu', array( 'Toolset_VideoDetachedPage', 'getInstance' ), 99 );
+    add_action( 'admin_menu', array( 'Toolset_VideoDetachedPage', 'getInstance' ), 9 );
 }

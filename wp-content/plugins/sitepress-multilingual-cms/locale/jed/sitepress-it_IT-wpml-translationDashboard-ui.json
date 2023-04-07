@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -159,11 +160,11 @@
          "Do nothing": [
             "Non eseguire nessuna azione"
          ],
-         "You need credits to use automatic translation.": [
-            "Ti servono dei crediti per usare la traduzione automatica."
-         ],
          "To assign content to a translator, first <a href=\"%s\" target=\"_blank\">add a translator</a> or <a href=\"%s\" target=\"_blank\">connect to a translation service</a>.": [
             "Per assegnare il contenuto a un traduttore, prima di tutto <a href=\"%s\" target=\"_blank\">aggiungi un traduttore</a> o <a href=\"%s\" target=\"_blank\">connettiti a un servizio di traduzione</a>."
+         ],
+         "You need credits to use automatic translation.": [
+            "Ti servono dei crediti per usare la traduzione automatica."
          ],
          "Translators Tab": [
             "Scheda Traduttori"

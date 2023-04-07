@@ -8,10 +8,7 @@
   @font-face {
     font-family: "onthegosystems-icons";
     src: font-url("../fonts/onthegosystems-icons_8d9a6c3bf95bd4630d40a722f192ec47.svg#onthegosystems-icons") format("svg"); } }
-[data-icon]:before {
-  content: attr(data-icon); }
 
-[data-icon]:before,
 .icon-access:before,
 .icon-access-logo:before,
 .icon-bootstrap:before,

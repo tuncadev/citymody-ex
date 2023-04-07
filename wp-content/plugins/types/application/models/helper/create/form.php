@@ -3,7 +3,7 @@
 /**
  * @since 2.0
  */
-class Types_Helper_Create_Form {
+class Types_Helper_Create_Form extends Types_Helper_Create_Abstract {
 
 	/**
 	 * Creates a form for a given post type
@@ -11,7 +11,7 @@ class Types_Helper_Create_Form {
 	 * @param string $type
 	 * @param bool|string $name Name for the Form
 	 *
-	 * @return bool|int
+	 * @return false|int
 	 * @since 2.0
 	 */
 	public function for_post( $type, $name = false ) {
@@ -62,9 +62,8 @@ class Types_Helper_Create_Form {
 	 * @since 2.0
 	 */
 	private function validate_name( $name, $id = 1 ) {
-		$name_exists = get_page_by_title(
+		$name_exists = $this->get_object_by_title(
 			html_entity_decode( $name ),
-			OBJECT,
 			defined( 'CRED_FORMS_CUSTOM_POST_NAME' ) ? CRED_FORMS_CUSTOM_POST_NAME : 'cred-form'
 		);
 

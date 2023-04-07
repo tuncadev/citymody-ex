@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -89,10 +90,6 @@
          ],
          "Start translating everything": [
             "התחל לתרגם הכל"
-         ],
-         "%1$d language": [
-            "שפה %1$d",
-            "%1$d שפות"
          ],
          "Please wait...": [
             "המתן..."
@@ -505,8 +502,8 @@
          "Let WPML do the translating for you.": [
             "אפשר ל-WPML לבצע עבורך את התרגום."
          ],
-         "You need to have a valid account in order to continue.": [
-            "תזדקק לחשבון בתוקף כדי להמשיך."
+         "To use automatic translation, <a>sign up for pay-as-you-go</a> or <a2>assign credits to your site</a2>.": [
+            "כדי להשתמש בתרגום אוטומטי, <a>הירשם לשלם בהתאם להתקדמות</a> או <a2>הקצה נקודות זכות לאתר שלך</a2>."
          ],
          "There was an error when loading the credit wizard.": [
             "אירעה שגיאה בעת טעינת אשף נקודות הזכות."
@@ -606,6 +603,9 @@
          ],
          "Ranking": [
             "דירוג"
+         ],
+         "You need to have a valid account in order to continue.": [
+            "תזדקק לחשבון בתוקף כדי להמשיך."
          ]
       }
    }

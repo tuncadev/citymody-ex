@@ -1,7 +1,7 @@
 <?php
 
 if( !defined('TOOLSET_VERSION') ){
-	define('TOOLSET_VERSION', '4.1.11' );
+	define('TOOLSET_VERSION', '4.2.0' );
 }
 
 if ( ! defined('TOOLSET_COMMON_VERSION' ) ) {

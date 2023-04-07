@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -89,10 +90,6 @@
          ],
          "Start translating everything": [
             "Inizia a tradurre tutto"
-         ],
-         "%1$d language": [
-            "%1$d lingua",
-            "%1$d lingue"
          ],
          "Please wait...": [
             "Attendere..."
@@ -505,8 +502,8 @@
          "Let WPML do the translating for you.": [
             "Lascia che WPML faccia la traduzione per te."
          ],
-         "You need to have a valid account in order to continue.": [
-            "Per continuare, devi avere un account valido."
+         "To use automatic translation, <a>sign up for pay-as-you-go</a> or <a2>assign credits to your site</a2>.": [
+            "Per usare la traduzione automatica, <a>sottoscrivi la pay-as-you-go</a> o <a2>assegna crediti al tuo sito</a2>."
          ],
          "There was an error when loading the credit wizard.": [
             "Si è verificato un errore nel caricamento del wizard dei crediti."
@@ -606,6 +603,9 @@
          ],
          "Ranking": [
             "Classificazione"
+         ],
+         "You need to have a valid account in order to continue.": [
+            "Per continuare, devi avere un account valido."
          ]
       }
    }

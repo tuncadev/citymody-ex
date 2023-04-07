@@ -11,6 +11,15 @@ if ( ! class_exists( 'Toolset_Relevanssi_Compatibility' ) ) {
 
 		const TEXT_SEARCH_DOCUMENTATION_LINK = 'https://toolset.com/course-lesson/searching-texts-in-custom-fields-with-toolset-and-relevanssi/?utm_source=plugin&utm_medium=gui&utm_campaign=toolset';
 
+		public $relevanssi_installed = false;
+		public $toolset_types_installed = false;
+		public $toolset_views_installed = false;
+
+		public $toolset_settings_url = '';
+
+		public $pending_to_add = array();
+		public $pending_to_remove = array();
+
 		public function __construct() {
 			$this->relevanssi_installed		= false;
 			$this->toolset_types_installed	= false;

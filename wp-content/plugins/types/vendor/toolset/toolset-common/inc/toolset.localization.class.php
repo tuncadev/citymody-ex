@@ -28,6 +28,11 @@ if ( ! class_exists( 'Toolset_Localization', false ) ) {
 	 */
 	class Toolset_Localization {
 
+		public $textdomain = 'wpv-views';
+		public $path = TOOLSET_LOCALIZATION_ABSPATH;
+		public $mo_name = 'views-%s';
+		public $mo_processed_name = '';
+
 		/**
 		 * @param $textdomain (string) the textdomain to use
 		 * @param $path (string) the path to the folder containing the mo files
@@ -42,7 +47,7 @@ if ( ! class_exists( 'Toolset_Localization', false ) ) {
 			// Set init action
 			add_action( 'init', array( $this, 'load_textdomain' ) );
 		}
-		
+
 		/**
 		 * Initializes localization given a textdomain, a path and a .mo file name
 		 *

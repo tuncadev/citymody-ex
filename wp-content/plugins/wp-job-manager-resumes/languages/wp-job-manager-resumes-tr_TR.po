@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: WP Job Manager - Resume Manager v1.8.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-resumes\n"
 "POT-Creation-Date: 2015-01-28 10:18:45+00:00\n"
-"PO-Revision-Date: 2023-03-18 08:28+0000\n"
+"PO-Revision-Date: 2023-03-27 19:30+0000\n"
 "Last-Translator: \n"
-"Language-Team: Türkçe\n"
+"Language-Team: Turkish\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1451,7 +1451,7 @@ msgstr "Yayımlanmış"
 #: includes/class-wp-resume-manager-post-types.php:204
 msgctxt "Post type archive slug - resave permalinks after changing this"
 msgid "resumes"
-msgstr "ozgecmisler"
+msgstr ""
 
 # @ wp-job-manager-resumes
 #: includes/admin/class-wp-resume-manager-cpt.php:275
@@ -1568,7 +1568,7 @@ msgstr "Özgeçmiş Kategorisi"
 #: includes/class-wp-resume-manager-post-types.php:111
 msgctxt "Resume category slug - resave permalinks after changing this"
 msgid "resume-category"
-msgstr "ozgecmis-kategori"
+msgstr ""
 
 # @ wp-job-manager-resumes
 #: includes/forms/class-wp-resume-manager-form-submit-resume.php:277
@@ -1627,7 +1627,7 @@ msgstr ""
 #: includes/class-wp-resume-manager-post-types.php:210
 msgctxt "Resume permalink - resave permalinks after changing this"
 msgid "resume"
-msgstr "ozgecmis"
+msgstr ""
 
 # @ wp-job-manager-resumes
 #: includes/admin/class-wp-resume-manager-cpt.php:245

@@ -67,13 +67,17 @@ class Attachments {
 		// Split the $url into two parts with the upload directory as the separator.
 		$parsed_url = explode( wp_parse_url( $this->get_base_upload_directory(), PHP_URL_PATH ), $url );
 
-		// Get the host of the current site and the host of the $url, ignoring www.
-		$this_host = str_ireplace( 'www.', '', wp_parse_url( home_url(), PHP_URL_HOST ) );
+		// Return nothing if there aren't any $url parts
+		$attachment_path = toolset_getarr( $parsed_url, 1 );
+		if ( ! isset( $attachment_path ) || empty( $attachment_path ) ) {
+			return null;
+		}
+
+		// Get the host of the $url, ignoring www.
 		$file_host = str_ireplace( 'www.', '', wp_parse_url( $url, PHP_URL_HOST ) );
 
-		// Return nothing if there aren't any $url parts or if the current host and $url host do not match.
-		$attachment_path = toolset_getarr( $parsed_url, 1 );
-		if ( ! isset( $attachment_path ) || empty( $attachment_path ) || ( $this_host !== $file_host ) ) {
+		// Return nothing if the current host and $url host do not match.
+		if ( ! in_array( $file_host, $this->wpml_service->get_site_domains(), true ) ) {
 			return null;
 		}
 
@@ -92,8 +96,16 @@ class Attachments {
 		}
 
 		// Try to fetch id by using our toolset_post_guid_id table.
+		// This method returns:
+		// - NULL on old Types versions if the variable is not set (< 3.0 for sure).
+		// - FALSE otherwise.
+		// So it will must probably return FALSE by now
 		$post_id = $this->types_guid_id_gateway->get_id_by_guid( $url, true );
-		$post_id = $this->wpml_service->translate_element( $post_id, 'attachment' );
+		$post_id = ( false === $post_id || null === $post_id )
+			? $post_id
+			// Do not run over the WPML compatibility if we do not have an item to translate.
+			// This will return NULL if the original attachment ID exists but its translation does not.
+			: $this->wpml_service->translate_element( $post_id, 'attachment' );
 		if ( $post_id || null === $post_id ) {
 			$return = $post_id ? (int) $post_id : null;
 			wp_cache_set( $cache_key, $return, self::CACHE_GROUP, self::CACHE_EXPIRATION_SECONDS );

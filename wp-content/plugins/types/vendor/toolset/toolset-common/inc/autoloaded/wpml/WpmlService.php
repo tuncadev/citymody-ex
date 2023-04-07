@@ -890,6 +890,35 @@ class WpmlService extends Toolset_Wpdb_User {
 		return apply_filters( 'wpml_object_id', $element_id, $element_type, $return_original_if_missing, $lang_code );
 	}
 
+
+	public function get_site_domains() {
+		// Current host.
+		$this_host = str_ireplace( 'www.', '', wp_parse_url( home_url(), PHP_URL_HOST ) );
+
+		// Alternative hosts when the site uses different domains per language.
+		$language_domains = apply_filters( 'wpml_setting', array(), 'language_domains' );
+		$accepted_lang_hosts = array_map( function( $language_host ) {
+			return str_ireplace( 'www.', '', wp_parse_url( $language_host, PHP_URL_HOST ) );
+		}, $language_domains );
+
+		// Complete the list with hosts from active languages.
+		$active_languages = apply_filters( 'wpml_active_languages', array() );
+		$active_language_hosts = array_map( function( $language_data ) {
+			return str_ireplace( 'www.', '', wp_parse_url( $language_data['url'], PHP_URL_HOST ) );
+		}, $active_languages );
+
+		// Define the valid site domains.
+		$accepted_hosts = array_values( array_unique(
+			array_merge(
+				[ $this_host ],
+				array_values( $accepted_lang_hosts ),
+				array_values( $active_language_hosts )
+			)
+		) );
+
+		return $accepted_hosts;
+	}
+
 }
 
 // See the inc/autoloaded/legacy_aliases directory for further info.

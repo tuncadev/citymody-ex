@@ -209,6 +209,12 @@ class Types_Page_Extension_M2m_Migration_Dialog {
 	 * @return bool
 	 */
 	private function can_set_post_translation_status() {
+		$wpml_version = $this->wpml_service->get_wpml_version();
+
+		if ( null === $wpml_version ) {
+			return false;
+		}
+
 		return (bool) version_compare( $this->wpml_service->get_wpml_version(), '4.0.0', '>=' );
 	}
 

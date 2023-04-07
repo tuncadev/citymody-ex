@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -159,11 +160,11 @@
          "Do nothing": [
             "Ничего не делать"
          ],
-         "You need credits to use automatic translation.": [
-            "Вам нужны кредиты, чтобы использовать автоматический перевод."
-         ],
          "To assign content to a translator, first <a href=\"%s\" target=\"_blank\">add a translator</a> or <a href=\"%s\" target=\"_blank\">connect to a translation service</a>.": [
             "Чтобы назначить контент переводчику, сначала <a href=\"%s\" target=\"_blank\">добавьте переводчика</a> или <a href=\"%s\" target=\"_blank\">подключитесь к службе переводов</a>."
+         ],
+         "You need credits to use automatic translation.": [
+            "Вам нужны кредиты, чтобы использовать автоматический перевод."
          ],
          "Translators Tab": [
             "Вкладка «Переводчики»"

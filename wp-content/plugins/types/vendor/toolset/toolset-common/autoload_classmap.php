@@ -48,6 +48,8 @@ return array(
 'OTGS\Toolset\Common\Condition\Plugin\FusionBuilder\IsFusionBuilderActive' => __DIR__ . '/utility/condition/plugin/fusion-builder/active.php',
 'OTGS\Toolset\Common\Condition\Plugin\Genesis\IsGenesisActive' => __DIR__ . '/utility/condition/plugin/genesis/active.php',
 'OTGS\Toolset\Common\Condition\Plugin\Kadence\IsKadenceActive' => __DIR__ . '/utility/condition/plugin/kadence/active.php',
+'OTGS\Toolset\Common\Condition\Plugin\Stackable\IsStackableActive' => __DIR__ . '/utility/condition/plugin/stackable/active.php',
+'OTGS\Toolset\Common\Condition\Plugin\TheEventsCalendar\IsTheEventsCalendarPre600' => __DIR__ . '/utility/condition/plugin/the-events-calendar/pre-600.php',
 'OTGS\Toolset\Common\Condition\Plugin\UltimateAddonsGutenberg\IsUltimateAddonsGutenbergActive' => __DIR__ . '/utility/condition/plugin/ultimate-addons-gutenberg/active.php',
 'OTGS\Toolset\Common\Condition\Plugin\UltimateAddonsGutenberg\IsUltimateAddonsGutenbergPre123' => __DIR__ . '/utility/condition/plugin/ultimate-addons-gutenberg/pre-123.php',
 'OTGS\Toolset\Common\Condition\Plugin\UltimateAddonsGutenberg\UAGBGenerateAssetsCallable' => __DIR__ . '/utility/condition/plugin/ultimate-addons-gutenberg/uagb-generate-assets-callable.php',

@@ -44,12 +44,24 @@ class Toolset_User_Editors_Editor_Visual_Composer
 	 */
 	protected $minimum_wp_bakery_pb_version = '5.4';
 
+	/**
+	 * Minimum WP Bakery page builder Version using the legacy editor container ID
+	 * @var string version number
+	 */
+	protected $minimum_wp_wpbakery_container_id = '6.8.0';
+
+	/**
+	 * WP Bakery page builder editor container ID
+	 * @var string version number
+	 */
+	protected $container_id = 'wpb_wpbakery';
+
 	public function required_plugin_active() {
-		
+
 		if ( ! apply_filters( 'toolset_is_views_available', false ) ) {
 			return false;
 		}
-		
+
 		if( ! defined( 'WPB_VC_VERSION' ) )
 			return false;
 
@@ -63,6 +75,10 @@ class Toolset_User_Editors_Editor_Visual_Composer
 		if( version_compare( WPB_VC_VERSION, $this->minimum_wp_bakery_pb_version ) < 0 ) {
 			$this->name = 'Visual Composer';
 			$this->logo_image_svg = 'vc_old.svg';
+		}
+
+		if( version_compare( WPB_VC_VERSION, $this->minimum_wp_wpbakery_container_id ) < 0 ) {
+			$this->container_id = 'wpb_visual_composer';
 		}
 
 		return true;
@@ -100,5 +116,9 @@ class Toolset_User_Editors_Editor_Visual_Composer
 			return true;
 
 		return $default;
+	}
+
+	public function get_container_id() {
+		return $this->container_id;
 	}
 }

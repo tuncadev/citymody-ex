@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit73aa346e68020a889a6eec5e168f85b2
+class ComposerStaticInit4938ebb09dcca1da620fbb6f170fb218
 {
     public static $files = array (
         'b45b351e6b6f7487d819961fef2fda77' => __DIR__ . '/..' . '/jakeasmith/http_build_url/src/http_build_url.php',
@@ -26,6 +26,7 @@ class ComposerStaticInit73aa346e68020a889a6eec5e168f85b2
     );
 
     public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Enlimbo_Forms' => __DIR__ . '/..' . '/toolset/toolset-common/toolset-forms/classes/class.eforms.php',
         'Exception_Invalid_Shortcode_Attr_Field' => __DIR__ . '/../..' . '/application/models/shortcode/exceptions.php',
         'Exception_Invalid_Shortcode_Attr_Item' => __DIR__ . '/../..' . '/application/models/shortcode/exceptions.php',
@@ -77,6 +78,8 @@ class ComposerStaticInit73aa346e68020a889a6eec5e168f85b2
         'OTGS\\Toolset\\Common\\Condition\\Plugin\\FusionBuilder\\IsFusionBuilderActive' => __DIR__ . '/..' . '/toolset/toolset-common/utility/condition/plugin/fusion-builder/active.php',
         'OTGS\\Toolset\\Common\\Condition\\Plugin\\Genesis\\IsGenesisActive' => __DIR__ . '/..' . '/toolset/toolset-common/utility/condition/plugin/genesis/active.php',
         'OTGS\\Toolset\\Common\\Condition\\Plugin\\Kadence\\IsKadenceActive' => __DIR__ . '/..' . '/toolset/toolset-common/utility/condition/plugin/kadence/active.php',
+        'OTGS\\Toolset\\Common\\Condition\\Plugin\\Stackable\\IsStackableActive' => __DIR__ . '/..' . '/toolset/toolset-common/utility/condition/plugin/stackable/active.php',
+        'OTGS\\Toolset\\Common\\Condition\\Plugin\\TheEventsCalendar\\IsTheEventsCalendarPre600' => __DIR__ . '/..' . '/toolset/toolset-common/utility/condition/plugin/the-events-calendar/pre-600.php',
         'OTGS\\Toolset\\Common\\Condition\\Plugin\\UltimateAddonsGutenberg\\IsUltimateAddonsGutenbergActive' => __DIR__ . '/..' . '/toolset/toolset-common/utility/condition/plugin/ultimate-addons-gutenberg/active.php',
         'OTGS\\Toolset\\Common\\Condition\\Plugin\\UltimateAddonsGutenberg\\IsUltimateAddonsGutenbergPre123' => __DIR__ . '/..' . '/toolset/toolset-common/utility/condition/plugin/ultimate-addons-gutenberg/pre-123.php',
         'OTGS\\Toolset\\Common\\Condition\\Plugin\\UltimateAddonsGutenberg\\UAGBGenerateAssetsCallable' => __DIR__ . '/..' . '/toolset/toolset-common/utility/condition/plugin/ultimate-addons-gutenberg/uagb-generate-assets-callable.php',
@@ -1484,6 +1487,7 @@ class ComposerStaticInit73aa346e68020a889a6eec5e168f85b2
         'Types_Helper_Condition_Views_Template_Missing' => __DIR__ . '/../..' . '/application/models/helper/condition/views/template_missing.php',
         'Types_Helper_Condition_Views_Views_Exist' => __DIR__ . '/../..' . '/application/models/helper/condition/views/views_exist.php',
         'Types_Helper_Condition_Views_Views_Missing' => __DIR__ . '/../..' . '/application/models/helper/condition/views/views_missing.php',
+        'Types_Helper_Create_Abstract' => __DIR__ . '/../..' . '/application/models/helper/create/a_create.php',
         'Types_Helper_Create_Content_Template' => __DIR__ . '/../..' . '/application/models/helper/create/content_template.php',
         'Types_Helper_Create_Form' => __DIR__ . '/../..' . '/application/models/helper/create/form.php',
         'Types_Helper_Create_Layout' => __DIR__ . '/../..' . '/application/models/helper/create/layout.php',
@@ -1653,9 +1657,9 @@ class ComposerStaticInit73aa346e68020a889a6eec5e168f85b2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit73aa346e68020a889a6eec5e168f85b2::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit73aa346e68020a889a6eec5e168f85b2::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit73aa346e68020a889a6eec5e168f85b2::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit4938ebb09dcca1da620fbb6f170fb218::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit4938ebb09dcca1da620fbb6f170fb218::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit4938ebb09dcca1da620fbb6f170fb218::$classMap;
 
         }, null, ClassLoader::class);
     }

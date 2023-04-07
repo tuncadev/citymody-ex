@@ -3,7 +3,7 @@
 /**
  * @since 2.0
  */
-class Types_Helper_Create_Content_Template {
+class Types_Helper_Create_Content_Template extends Types_Helper_Create_Abstract {
 
 	/**
 	 * Creates a content template for a given post type
@@ -113,7 +113,7 @@ class Types_Helper_Create_Content_Template {
 	 * @since 2.0
 	 */
 	private function validate_name( $name, $id = 1 ) {
-		$name_exists = get_page_by_title( html_entity_decode( $name ), OBJECT, 'view-template' );
+		$name_exists = $this->get_object_by_title( html_entity_decode( $name ), 'view-template' );
 
 		if ( $name_exists ) {
 			$name = $id > 1 ? rtrim( rtrim( $name, (string) ( $id - 1 ) ) ) : $name;

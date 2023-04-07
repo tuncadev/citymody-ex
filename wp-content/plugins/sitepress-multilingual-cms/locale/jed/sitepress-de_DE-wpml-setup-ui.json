@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "From:": [
@@ -274,7 +275,7 @@
             " (erforderlich)"
          ],
          "Please fill in the field": [
-            "Bitte füllen Sie das Feld aus"
+            "Bitte füllen Sie das Feld aus."
          ],
          "PNG, SVG, or JPG files": [
             "PNG-, SVG- oder JPG-Dateien"
@@ -415,7 +416,7 @@
             "Wenn Sie die Sprachen, die Sie brauchen, nicht in der Liste finden können"
          ],
          "create a custom language": [
-            "erstellen Sie eine benutzerdefinierte Sprache"
+            "Erstellen einer benutzerdefinierten Sprache"
          ],
          "What are the languages of your site?": [
             "Welche Sprachen werden auf Ihrer Website verwendet?"

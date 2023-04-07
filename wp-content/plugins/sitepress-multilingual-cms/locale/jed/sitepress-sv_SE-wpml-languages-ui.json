@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "hide the translations instead.": [
@@ -27,6 +28,9 @@
          "Save": [
             "Spara"
          ],
+         "Only automatically translate new content.": [
+            "Översätt bara nytt innehåll automatiskt."
+         ],
          "Add languages and start translating": [
             "Lägg till språk och börja översätta"
          ],
@@ -44,9 +48,6 @@
          ],
          "Automatically translate all of my existing posts and pages right now, plus new content as I create it.": [
             "Översätt automatiskt alla mina inlägg och sidor direkt, plus nytt innehåll när jag skapar det."
-         ],
-         "Only automatically translate new content.": [
-            "Översätt bara nytt innehåll automatiskt."
          ],
          "You are using <a>Translate Everything</a> mode, which translates your site content automatically.": [
             "Du använder läget <a>Översätt allt</a> som översätter webbplatsens innehåll automatiskt."

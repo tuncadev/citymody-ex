@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "From:": [
@@ -60,11 +61,17 @@
          "Publish right away but mark as not reviewed so I can take a look later": [
             "Publique imediatamente, mas marque como não revisado para que eu possa dar uma olhada mais tarde"
          ],
+         "Publish right away without reviewing": [
+            "Publique imediatamente sem revisar"
+         ],
          "Who will translate?": [
             "Quem vai traduzir?"
          ],
          "Only myself": [
             "Somente eu"
+         ],
+         "You will be the sole translator for this site.": [
+            "Você será o único tradutor deste site."
          ],
          "Users of this site": [
             "Usuários deste site"
@@ -90,6 +97,12 @@
          "You will choose a user of this site and delegate the setup of translators to him/her. Choose this option when you are building a website for a client, who will set up translator users or choose a translation service.": [
             "Você escolherá um(a) usuário(a) deste site e delegará a ele(a) a configuração de tradutores. Escolha esta opção se estiver criando o site para um(a) cliente, que por sua vez, definirá usuários tradutores ou escolherá um serviço de tradução."
          ],
+         "Translate Everything Automatically": [
+            "Traduzir tudo automaticamente"
+         ],
+         "Let WPML do the translating for you": [
+            "Deixe o WPML traduzir para você"
+         ],
          "Translates all your published content automatically": [
             "Traduz todo o seu conteúdo publicado automaticamente"
          ],
@@ -99,8 +112,14 @@
          "Instantly translates new content and updates translations whenever you edit a page or post": [
             "Traduz instantaneamente novos conteúdos e atualiza as traduções sempre que você edita uma página ou publicação"
          ],
+         "You can review translations before publishing or hire professional reviewers": [
+            "Você pode revisar traduções antes de publicar ou contratar revisores profissionais"
+         ],
          "Affordable and fast": [
             "Acessível e rápido"
+         ],
+         "How would you like to translate the content?": [
+            "Como você gostaria de traduzir o conteúdo?"
          ],
          "Choose": [
             "Escolher"
@@ -357,8 +376,14 @@
          "Show error message": [
             "Exibir mensagem de erro"
          ],
+         "WPML is ready to translate your site": [
+            "O WPML está pronto para traduzir seu site"
+         ],
          "WPML has started translating your site": [
             "O WPML começou a traduzir seu site"
+         ],
+         "When you're done editing content, go to <s>WPML → Translation Management</s> to start translations.": [
+            "Quando terminar de editar o conteúdo, vá para <s>WPML → Gerenciamento de Tradução</s> para iniciar as traduções."
          ],
          "View the status of the translations in <s>WPML → Translation Management</s>.": [
             "Veja o status das traduções em <s>WPML → Translation Management</s>."
@@ -410,6 +435,9 @@
          ],
          "Get a key for this site": [
             "Obter uma chave para este site"
+         ],
+         "Are you ready to start translating now?": [
+            "Pronto para começar a traduzir agora?"
          ],
          "Yes!": [
             "Sim!"

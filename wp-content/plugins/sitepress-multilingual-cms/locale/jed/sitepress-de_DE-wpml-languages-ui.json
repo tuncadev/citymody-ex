@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "hide the translations instead.": [
@@ -27,6 +28,9 @@
          "Save": [
             "Speichern"
          ],
+         "Only automatically translate new content.": [
+            "Nur neue Inhalte automatisch übersetzen."
+         ],
          "Add languages and start translating": [
             "Sprachen hinzufügen und Übersetzung starten"
          ],
@@ -44,9 +48,6 @@
          ],
          "Automatically translate all of my existing posts and pages right now, plus new content as I create it.": [
             "Alle meine vorhandenen Beiträge und Seiten gleich jetzt automatisch übersetzen, plus neue Inhalte, wenn ich diese erstelle."
-         ],
-         "Only automatically translate new content.": [
-            "Nur neue Inhalte automatisch übersetzen."
          ],
          "You are using <a>Translate Everything</a> mode, which translates your site content automatically.": [
             "Sie nutzen den <a>Alles übersetzen</a>-Modus, der Ihre Seiteninhalte automatisch übersetzt."

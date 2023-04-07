@@ -2,6 +2,8 @@
 
 class WPToolset_Field_Date_Scripts {
 
+	protected $localization_slug = false;
+
     public function __construct() {
 
         global $pagenow;

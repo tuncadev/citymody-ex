@@ -14,6 +14,9 @@ class Loader implements \IWPML_Backend_Action, \IWPML_REST_Action {
 
 	const SCRIPT_NAME = 'wpml-blocks';
 
+	/** @var array Contains the script data that needs to be localized for the registered blocks. */
+	private $localizedScriptData = [];
+
 	public function add_hooks() {
 
 		Hooks::onAction( 'init' )
@@ -52,30 +55,23 @@ class Loader implements \IWPML_Backend_Action, \IWPML_REST_Action {
 	 * Register blocks that need server side render.
 	 */
 	public function registerBlocks() {
-		make( LanguageSwitcher::class )->register();
+		$LSLocalizedScriptData = make( LanguageSwitcher::class )->register();
+		$this->localizedScriptData = array_merge( $this->localizedScriptData, $LSLocalizedScriptData );
 	}
 
 	/**
 	 * @return void
 	 */
 	public function enqueueBlockAssets() {
-		// Note: this is reused by specific blocks to attach Localized variables to the same Script Handle.
-		$this->enqueueBlockScripts();
-		$this->enqueueBlockStyles();
-	}
-
-	public function enqueueBlockScripts() {
-		wp_enqueue_script(
-			self::SCRIPT_NAME,
-			ICL_PLUGIN_URL . '/dist/js/blocks/app.js',
-			[
-				'wp-blocks',
-				'wp-i18n',
-				'wp-element',
-				'wp-editor',
-			],
-			ICL_SITEPRESS_VERSION
-		);
+		$dependencies = [
+			'wp-blocks',
+			'wp-i18n',
+			'wp-element',
+			'wp-editor',
+		];
+		$localizedScriptData = [ 'name' => 'WPMLBlocks', 'data' => $this->localizedScriptData ];
+		$enqueuedApp = Resources::enqueueApp( 'blocks' );
+		$enqueuedApp( $localizedScriptData, $dependencies );
 	}
 
 	public function enqueueBlockStyles() {

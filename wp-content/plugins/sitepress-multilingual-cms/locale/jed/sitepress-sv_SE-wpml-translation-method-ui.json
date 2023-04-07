@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -89,10 +90,6 @@
          ],
          "Start translating everything": [
             "Börja översätta allt"
-         ],
-         "%1$d language": [
-            "%1$d språk",
-            "%1$d språk"
          ],
          "Please wait...": [
             "Vänta..."
@@ -398,7 +395,7 @@
             "Läs mer om"
          ],
          "The name of your language as it will appear on your site's language switcher.": [
-            "Namnet på ditt språk som det kommer att visas på din webbplats språk växlaren."
+            "Namnet på språket så som det kommer att visas på webbplatsens språkväxlare."
          ],
          "A unique value that identifies the language in the database and URL. Once saved, the language code cannot be changed.": [
             "Ett unikt värde som identifierar språket i databasen och URL. Språkskoden kan inte ändras när den har sparats."
@@ -505,8 +502,8 @@
          "Let WPML do the translating for you.": [
             "Låt WPML göra översättningen åt dig."
          ],
-         "You need to have a valid account in order to continue.": [
-            "Du måste ha ett giltigt konto för att fortsätta."
+         "To use automatic translation, <a>sign up for pay-as-you-go</a> or <a2>assign credits to your site</a2>.": [
+            "Om du vill använda automatisk översättning ska du <a>anmäla dig till pay-as-you-go</a> eller <a2>tilldela krediter till din webbplats</a2>."
          ],
          "There was an error when loading the credit wizard.": [
             "Ett fel inträffade när kreditguiden skulle läsas in."
@@ -606,6 +603,9 @@
          ],
          "Ranking": [
             "Placering"
+         ],
+         "You need to have a valid account in order to continue.": [
+            "Du måste ha ett giltigt konto för att fortsätta."
          ]
       }
    }

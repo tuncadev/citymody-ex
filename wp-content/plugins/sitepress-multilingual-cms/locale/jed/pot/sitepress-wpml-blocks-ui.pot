@@ -28,6 +28,7 @@ msgid "Color"
 msgstr ""
 
 #: src/js/blocks/LanguageSwitcher/Components/Dimensions/Control.js:354
+#: src/js/blocks/LanguageSwitcher/attributes/color.js:114
 msgid "Dimensions"
 msgstr ""
 
@@ -119,24 +120,28 @@ msgstr ""
 msgid "Typography"
 msgstr ""
 
-#: src/js/blocks/LanguageSwitcher/attributes/color.js:116
+#: src/js/blocks/LanguageSwitcher/attributes/color.js:115
+msgid "All %s"
+msgstr ""
+
+#: src/js/blocks/LanguageSwitcher/attributes/color.js:118
 #: src/js/blocks/NavigationLanguageSwitcher/attributes/color.js:25
 msgid "Background"
 msgstr ""
 
-#: src/js/blocks/LanguageSwitcher/attributes/color.js:121
+#: src/js/blocks/LanguageSwitcher/attributes/color.js:123
 msgid "Language Text"
 msgstr ""
 
-#: src/js/blocks/LanguageSwitcher/attributes/color.js:126
+#: src/js/blocks/LanguageSwitcher/attributes/color.js:128
 msgid "Language Background"
 msgstr ""
 
-#: src/js/blocks/LanguageSwitcher/attributes/color.js:131
+#: src/js/blocks/LanguageSwitcher/attributes/color.js:133
 msgid "Current language text"
 msgstr ""
 
-#: src/js/blocks/LanguageSwitcher/attributes/color.js:136
+#: src/js/blocks/LanguageSwitcher/attributes/color.js:138
 #: src/js/blocks/NavigationLanguageSwitcher/attributes/color.js:30
 msgid "Current language background"
 msgstr ""
@@ -197,11 +202,11 @@ msgid "Reset all"
 msgstr ""
 
 #: src/js/blocks/Shared/Controls/SliderWithInput.js:48
-msgid "Minimum value is : "
+msgid "Minimum value is: %d."
 msgstr ""
 
 #: src/js/blocks/Shared/Controls/SliderWithInput.js:51
-msgid "Maximum value is : "
+msgid "Maximum value is: %d."
 msgstr ""
 
 #: src/js/blocks/Shared/Controls/SliderWithInput.js:55

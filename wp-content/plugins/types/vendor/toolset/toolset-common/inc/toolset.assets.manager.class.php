@@ -9,9 +9,10 @@ define( 'WPT_ASSETS_MANAGER', true );
 class Toolset_Style {
 
 	public $handle;
-
 	public $path;
-
+	public $deps;
+	public $ver;
+	public $media;
 
 	public function __construct( $handle, $path = 'wordpress_default', $deps = array(), $ver = false, $media = 'screen' ) {
 		$this->handle = $handle;
@@ -86,10 +87,10 @@ class Toolset_Style {
 class Toolset_Script {
 
 	public $handle;
-
-	/** @var mixed|string */
 	public $path;
-
+	public $deps;
+	public $ver;
+	public $in_footer;
 
 	public function __construct( $handle, $path = 'wordpress_default', $deps = array(), $ver = false, $in_footer = false ) {
 		$this->handle    = $handle;

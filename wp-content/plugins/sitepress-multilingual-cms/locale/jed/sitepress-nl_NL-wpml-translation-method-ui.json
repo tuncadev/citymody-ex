@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -89,10 +90,6 @@
          ],
          "Start translating everything": [
             "Start met alles vertalen"
-         ],
-         "%1$d language": [
-            "%1$d taal",
-            "%1$d talen"
          ],
          "Please wait...": [
             "Even geduld.."
@@ -398,7 +395,7 @@
             "Lees meer over"
          ],
          "The name of your language as it will appear on your site's language switcher.": [
-            "De naam van je taal zoals die zal verschijnen op de taal-switcher van je site."
+            "De naam van je taal zoals die zal verschijnen op de taalschakelaar van je site."
          ],
          "A unique value that identifies the language in the database and URL. Once saved, the language code cannot be changed.": [
             "Een unieke waarde die de taal identificeert in de database en URL. Eenmaal opgeslagen, kan de taalcode niet meer worden gewijzigd."
@@ -505,8 +502,8 @@
          "Let WPML do the translating for you.": [
             "Laat WPML het vertalen voor je doen."
          ],
-         "You need to have a valid account in order to continue.": [
-            "Je moet een geldige account hebben om verder te gaan."
+         "To use automatic translation, <a>sign up for pay-as-you-go</a> or <a2>assign credits to your site</a2>.": [
+            "Om automatische vertaling te gebruiken, <a>meld je aan voor pay-as-you-go</a> or <a2>credits toekennen aan je site</a2>."
          ],
          "There was an error when loading the credit wizard.": [
             "Er is een fout opgetreden bij het laden van de krediet wizard."
@@ -606,6 +603,9 @@
          ],
          "Ranking": [
             "Ranking"
+         ],
+         "You need to have a valid account in order to continue.": [
+            "Je moet een geldige account hebben om verder te gaan."
          ]
       }
    }

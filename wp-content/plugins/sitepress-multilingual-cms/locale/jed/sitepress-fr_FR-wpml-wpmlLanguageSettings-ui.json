@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "Choose the image file type for flags": [
@@ -13,7 +14,7 @@
             "Cette option s’applique uniquement aux indicateurs WPML intégrés, pas aux indicateurs personnalisés transférés."
          ],
          "Save": [
-            "Appliquer"
+            "Enregistrer"
          ],
          "The new format has been saved.": [
             "Le nouveau format a été sauvegardé."

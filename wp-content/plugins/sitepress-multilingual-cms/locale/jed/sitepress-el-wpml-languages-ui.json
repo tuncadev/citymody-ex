@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "hide the translations instead.": [
@@ -13,7 +14,7 @@
             "Προέκυψε ένα σφάλμα! Δοκιμάστε ξανά."
          ],
          "Cancel": [
-            "Άκυρο"
+            "Ακύρωση"
          ],
          "Choose Content to Automatically Translate into": [
             "Επιλέξτε περιεχόμενο που θα μεταφράζεται αυτομάτως σε"
@@ -26,6 +27,9 @@
          ],
          "Save": [
             "Αποθήκευση"
+         ],
+         "Only automatically translate new content.": [
+            "Να μεταφράζεται αυτόματα μόνο το νέο περιεχόμενο."
          ],
          "Add languages and start translating": [
             "Προσθήκη γλωσσών και έναρξη μετάφρασης"
@@ -44,9 +48,6 @@
          ],
          "Automatically translate all of my existing posts and pages right now, plus new content as I create it.": [
             "Να μεταφραστούν τώρα αυτόματα όλες οι υπάρχουσες αναρτήσεις και σελίδες μου, καθώς και το νέο περιεχόμενο κατά τη δημιουργία του."
-         ],
-         "Only automatically translate new content.": [
-            "Να μεταφράζεται αυτόματα μόνο το νέο περιεχόμενο."
          ],
          "You are using <a>Translate Everything</a> mode, which translates your site content automatically.": [
             "Χρησιμοποιείτε τη λειτουργία <a>Μετάφραση όλων</a> που μεταφράζει αυτόματα το περιεχόμενο του ιστότοπού σας."

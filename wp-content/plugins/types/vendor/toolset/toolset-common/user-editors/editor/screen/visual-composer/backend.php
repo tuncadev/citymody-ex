@@ -5,6 +5,7 @@ class Toolset_User_Editors_Editor_Screen_Visual_Composer_Backend
 
 	private $post;
 	public $editor;
+	private $container_id;
 
 	public function initialize() {
 		parent::initialize();
@@ -13,7 +14,7 @@ class Toolset_User_Editors_Editor_Screen_Visual_Composer_Backend
 
 		add_action( 'init',												array( $this, 'register_assets' ), 50 );
 		add_action( 'admin_enqueue_scripts',							array( $this, 'admin_enqueue_assets' ), 50 );
-		
+
 		add_filter( 'toolset_filter_toolset_registered_user_editors',	array( $this, 'register_user_editor' ) );
 		add_filter( 'wpv_filter_wpv_layout_template_extra_attributes',	array( $this, 'layout_template_attribute' ), 10, 2 );
 		add_action( 'wpv_action_wpv_ct_inline_user_editor_buttons',		array( $this, 'register_inline_editor_action_buttons' ) );
@@ -68,6 +69,7 @@ class Toolset_User_Editors_Editor_Screen_Visual_Composer_Backend
 		add_filter( 'toolset_filter_force_shortcode_generator_display', array( $this, 'force_shortcode_generator_display' ) );
 
 		$this->medium->set_html_editor_backend( array( $this, 'html_output' ) );
+		$this->container_id = $this->editor->get_container_id();
 	}
 
 	/**
@@ -106,13 +108,13 @@ class Toolset_User_Editors_Editor_Screen_Visual_Composer_Backend
 
 		return true;
 	}
-	
+
 	public function register_assets() {
-		
+
 		$toolset_assets_manager = Toolset_Assets_Manager::get_instance();
-		
+
 		// Content Template as inline object assets
-		
+
 		$toolset_assets_manager->register_script(
 			'toolset-user-editors-vc-layout-template-script',
 			TOOLSET_COMMON_URL . '/user-editors/editor/screen/visual-composer/backend_layout_template.js',
@@ -144,14 +146,14 @@ class Toolset_User_Editors_Editor_Screen_Visual_Composer_Backend
 										'discard'	=> sprintf( __( 'Stop using %1$s for this Content Template', 'wpv-views' ), $this->editor->get_name() )
 									),
 		);
-		$toolset_assets_manager->localize_script( 
-			'toolset-user-editors-vc-layout-template-script', 
-			'toolset_user_editors_vc_layout_template_i18n', 
-			$vc_layout_template_i18n 
+		$toolset_assets_manager->localize_script(
+			'toolset-user-editors-vc-layout-template-script',
+			'toolset_user_editors_vc_layout_template_i18n',
+			$vc_layout_template_i18n
 		);
-		
+
 	}
-	
+
 	public function admin_enqueue_assets( $screen_id ) {
 		$content_template_has_vc = ( get_post_meta( wpv_getget( 'ct_id' ), '_toolset_user_editors_editor_choice', true ) === Toolset_User_Editors_Editor_Visual_Composer::VC_SCREEN_ID );
 		$ct_edit_page_screen_id = class_exists( 'WPV_Page_Slug' ) ? WPV_Page_Slug::CONTENT_TEMPLATES_EDIT_PAGE : 'toolset_page_ct-editor';
@@ -211,15 +213,15 @@ class Toolset_User_Editors_Editor_Screen_Visual_Composer_Backend
 			body.toolset_page_ct-editor .wpv-setting-container {
 				max-width: 96% !important;
 			}
-			
+
 			body.toolset_page_ct-editor .wpv-setting-container .wpv-settings-header {
 				width: 15% !important;
 			}
-			
+
 			.wpv-setting {
 				width: 84%;
 			}
-			
+
 			.wpv-mightlong-list li {
 				min-width: 21%;
 			}
@@ -227,15 +229,15 @@ class Toolset_User_Editors_Editor_Screen_Visual_Composer_Backend
 			body.toolset_page_ct-editor .js-wpv-content-section .wpv-settings-header {
 				display: block;
 			}
-			
+
 			body.toolset_page_ct-editor .wpv-ct-control-switch-editor {
 				padding-left: 105px;
 			}
-			
+
 			body.toolset_page_ct-editor .js-wpv-content-section .wpv-setting {
 				width: 100% !important;
 			}
-			
+
 			.vc_subnav-fixed{
 				position:relative !important;
 				top:auto !important;
@@ -249,12 +251,12 @@ class Toolset_User_Editors_Editor_Screen_Visual_Composer_Backend
 		$output .= "<script>var ToolsetDisableBackboneExtension = '1';</script>";
 		echo preg_replace('/\v(?:[\v\h]+)/', '', $output );
 	}
-	
+
 	public function register_user_editor( $editors ) {
 		$editors[ $this->editor->get_id() ] = $this->editor->get_name();
 		return $editors;
 	}
-	
+
 	/**
 	* Set the builder used by a Content Template, if any.
 	*
@@ -275,11 +277,11 @@ class Toolset_User_Editors_Editor_Screen_Visual_Composer_Backend
 		}
 		return $attributes;
 	}
-	
+
 	public function register_inline_editor_action_buttons( $content_template ) {
 		$content_template_has_vc = ( get_post_meta( $content_template->ID, '_toolset_user_editors_editor_choice', true ) === Toolset_User_Editors_Editor_Visual_Composer::VC_SCREEN_ID );
 		?>
-		<button 
+		<button
 			class="button button-secondary toolset-ct-button-logo js-wpv-ct-apply-user-editor js-wpv-ct-apply-user-editor-<?php echo esc_attr( $this->editor->get_id() ); ?>"
 			data-editor="<?php echo esc_attr( $this->editor->get_id() ); ?>"
             title="<?php echo __( 'Edit with', 'wpv-views' ) . ' ' . $this->editor->get_name() ?>"

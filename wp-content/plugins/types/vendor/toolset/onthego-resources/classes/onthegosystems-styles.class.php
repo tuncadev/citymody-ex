@@ -2,7 +2,7 @@
 
 class OnTheGoSystemsStyles_Class{
 
-    const VERSION_NUMBER = '4.0';
+    const VERSION_NUMBER = '4.36';
 
     private static $instance;
 

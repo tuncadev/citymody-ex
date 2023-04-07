@@ -674,7 +674,7 @@ msgstr ""
 msgid "What should happen with your automatically translated content"
 msgstr ""
 
-#: src/js/translation-method/compontents/Sections/AutomaticTranslations/TranslationEngineSettings.js:111
+#: src/js/translation-method/compontents/Sections/AutomaticTranslations/TranslationEngineSettings.js:116
 msgid "%d credits/word"
 msgstr ""
 
@@ -719,6 +719,14 @@ msgstr ""
 msgid "Learn more"
 msgstr ""
 
+#: src/js/translation-method/compontents/Sections/AutomaticTranslations/TranslationEngineSettings.js:92
+msgid "On"
+msgstr ""
+
+#: src/js/translation-method/compontents/Sections/AutomaticTranslations/TranslationEngineSettings.js:93
+msgid "Off"
+msgstr ""
+
 #: src/js/translation-method/compontents/Sections/TranslationModeSection.js:25
 msgid ""
 "You must use the <b>Advanced Translation Editor</b> if you want to "
@@ -753,11 +761,13 @@ msgstr ""
 msgid "Let WPML do the translating for you."
 msgstr ""
 
-#: src/js/translation-method/compontents/Settings/Wizard/TranslateEverything/StepATECredits.js:16
-msgid "You need to have a valid account in order to continue."
+#: src/js/translation-method/compontents/Settings/Wizard/TranslateEverything/StepATECredits.js:19
+msgid ""
+"To use automatic translation, <a>sign up for pay-as-you-go</a> or "
+"<a2>assign credits to your site</a2>."
 msgstr ""
 
-#: src/js/translation-method/compontents/Settings/Wizard/TranslateEverything/StepATECredits.js:21
+#: src/js/translation-method/compontents/Settings/Wizard/TranslateEverything/StepATECredits.js:31
 msgid "There was an error when loading the credit wizard."
 msgstr ""
 

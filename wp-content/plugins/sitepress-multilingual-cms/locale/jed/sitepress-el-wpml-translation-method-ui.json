@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -85,14 +86,10 @@
             "Χρειάζεστε μονάδες για να ξεκινήσετε να μεταφράζετε τα πάντα."
          ],
          "Cancel": [
-            "Άκυρο"
+            "Ακύρωση"
          ],
          "Start translating everything": [
             "Έναρξη μετάφρασης όλων"
-         ],
-         "%1$d language": [
-            "%1$d γλώσσα",
-            "%1$d γλώσσες"
          ],
          "Please wait...": [
             "Περιμένετε..."
@@ -347,7 +344,7 @@
             "Τοποθεσία"
          ],
          "Code": [
-            "Κωδικός"
+            "Κώδικας"
          ],
          "The language will not be supported by automatic translations": [
             "Η γλώσσα δεν θα υποστηρίζεται από αυτόματες μεταφράσεις"
@@ -385,8 +382,14 @@
          "Please fill in the field": [
             "Συμπληρώστε το πεδίο"
          ],
+         "PNG, SVG, or JPG files": [
+            "Αρχεία PNG, SVG ή JPG"
+         ],
          "Save language": [
             "Αποθήκευση γλώσσας"
+         ],
+         "18 x 12 pixels": [
+            "18 x 12 pixel"
          ],
          "Read more about ": [
             "Διαβάστε περισσότερα για"
@@ -499,8 +502,8 @@
          "Let WPML do the translating for you.": [
             "Αφήστε το WPML να κάνει τη μετάφραση για εσάς."
          ],
-         "You need to have a valid account in order to continue.": [
-            "Πρέπει να έχετε έναν έγκυρο λογαριασμό για να συνεχίσετε."
+         "To use automatic translation, <a>sign up for pay-as-you-go</a> or <a2>assign credits to your site</a2>.": [
+            "Για χρήση της αυτόματης μετάφρασης, <a>εγγραφείτε για πληρωμή ανάλογα με τη χρήση</a> ή <a2>αναθέστε μονάδες στον ιστότοπό σας</a2>."
          ],
          "There was an error when loading the credit wizard.": [
             "Προέκυψε ένα σφάλμα κατά τη φόρτωση του οδηγού μονάδων."
@@ -600,6 +603,9 @@
          ],
          "Ranking": [
             "Κατάταξη"
+         ],
+         "You need to have a valid account in order to continue.": [
+            "Πρέπει να έχετε έναν έγκυρο λογαριασμό για να συνεχίσετε."
          ]
       }
    }

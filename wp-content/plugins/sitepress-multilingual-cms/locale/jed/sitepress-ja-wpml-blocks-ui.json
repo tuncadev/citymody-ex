@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "Advanced": [
@@ -108,8 +109,8 @@
          "Current language background": [
             "現在の言語バックグラウンド"
          ],
-         "Small": [
-            "小"
+         "Code": [
+            "コード"
          ],
          "Normal": [
             "普通"
@@ -122,6 +123,18 @@
          ],
          "X-Large": [
             "X-Large"
+         ],
+         "Ab": [
+            "Ab"
+         ],
+         "AB": [
+            "AB"
+         ],
+         "ab": [
+            "ab"
+         ],
+         "Small": [
+            "小"
          ],
          "Displays the WPML Language Switcher.": [
             "WPML 言語切り替え機能を表示します。"

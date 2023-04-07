@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -89,10 +90,6 @@
          ],
          "Start translating everything": [
             "بدء ترجمة كل شيء"
-         ],
-         "%1$d language": [
-            "%1$d لغة",
-            "%1$d لغات"
          ],
          "Please wait...": [
             "يُرجى الانتظار..."
@@ -505,8 +502,8 @@
          "Let WPML do the translating for you.": [
             "السماح لـWPML بتنفيذ الترجمة لأجلك."
          ],
-         "You need to have a valid account in order to continue.": [
-            "يجب أن يكون لديك حساب صالح لتتمكن من المتابعة."
+         "To use automatic translation, <a>sign up for pay-as-you-go</a> or <a2>assign credits to your site</a2>.": [
+            "لاستخدام خدمة الترجمة الآلية، <a>اشترك في خدمة الدفع بحسب الاستخدام</a> أو قم <a2>بتخصيص نقاط رصيد لموقعك</a2>."
          ],
          "There was an error when loading the credit wizard.": [
             "حدث خطأ أثناء تحميل معالج نقاط الرصيد."
@@ -606,6 +603,9 @@
          ],
          "Ranking": [
             "الترتيب"
+         ],
+         "You need to have a valid account in order to continue.": [
+            "يجب أن يكون لديك حساب صالح لتتمكن من المتابعة."
          ]
       }
    }

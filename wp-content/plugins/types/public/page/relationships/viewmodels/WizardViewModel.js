@@ -262,7 +262,7 @@ Types.page.relationships.viewmodels.WizardViewModel = function (listingModel) {
             }
 
             // Refresh summary limits due to slider doesn't trigger ko bounds.
-            jQuery('input[data-bind*=onLimitChange]').trgger( 'change' );
+            jQuery('input[data-bind*=onLimitChange]').trigger( 'change' );
         }
 
     };

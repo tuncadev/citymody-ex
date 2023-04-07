@@ -1,6 +1,6 @@
 <?php
 
-class Types_Helper_Create_View {
+class Types_Helper_Create_View extends Types_Helper_Create_Abstract {
 
 	/**
 	 * Creates a View for a given post type
@@ -8,7 +8,7 @@ class Types_Helper_Create_View {
 	 * @param string $type
 	 * @param bool|string $name Name for the View
 	 *
-	 * @return int|false
+	 * @return false|int
 	 * @since 2.0
 	 */
 	public function for_post( $type, $name = false ) {
@@ -54,7 +54,7 @@ class Types_Helper_Create_View {
 	 * @since 2.0
 	 */
 	private function validate_name( $name, $id = 1 ) {
-		$name_exists = get_page_by_title( html_entity_decode( $name ), OBJECT, 'view' );
+		$name_exists = $this->get_object_by_title( html_entity_decode( $name ), 'view' );
 		if ( $name_exists !== null ) {
 			$name = $id > 1 ? rtrim( rtrim( $name, (string) ( $id - 1 ) ) ) : $name;
 

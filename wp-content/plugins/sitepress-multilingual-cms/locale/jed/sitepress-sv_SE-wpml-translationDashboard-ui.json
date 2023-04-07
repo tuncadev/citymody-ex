@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -159,11 +160,11 @@
          "Do nothing": [
             "Gör ingenting"
          ],
-         "You need credits to use automatic translation.": [
-            "Du behöver krediter för att använda automatisk översättning."
-         ],
          "To assign content to a translator, first <a href=\"%s\" target=\"_blank\">add a translator</a> or <a href=\"%s\" target=\"_blank\">connect to a translation service</a>.": [
             "Om du vill tilldela en översättare innehåll ska du först <a href=\"%s\" target=\"_blank\">läggä till en översättare</a> eller <a href=\"%s\" target=\"_blank\">ansluta till en översättningstjänst</a>."
+         ],
+         "You need credits to use automatic translation.": [
+            "Du behöver krediter för att använda automatisk översättning."
          ],
          "Translators Tab": [
             "Fliken Översättare"

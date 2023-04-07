@@ -3,7 +3,7 @@
 /**
  * @refactoring Get rid of the hard Layouts dependencies.
  */
-class Types_Helper_Create_Layout {
+class Types_Helper_Create_Layout extends Types_Helper_Create_Abstract {
 
 	/**
 	 * Creates a layout for a given post type
@@ -11,7 +11,7 @@ class Types_Helper_Create_Layout {
 	 * @param string $type
 	 * @param bool|string $name Name for the Layout
 	 *
-	 * @return bool
+	 * @return false|int
 	 * @since 2.0
 	 */
 	public function for_post( $type, $name = false ) {
@@ -185,7 +185,7 @@ class Types_Helper_Create_Layout {
 			return $name;
 		}
 
-		$name_exists = get_page_by_title( html_entity_decode( $name ), OBJECT, WPDDL_LAYOUTS_POST_TYPE );
+		$name_exists = $this->get_object_by_title( html_entity_decode( $name ), WPDDL_LAYOUTS_POST_TYPE );
 
 		if ( $name_exists ) {
 			$name = $id > 1 ? rtrim( rtrim( $name, (string) ( $id - 1 ) ) ) : $name;

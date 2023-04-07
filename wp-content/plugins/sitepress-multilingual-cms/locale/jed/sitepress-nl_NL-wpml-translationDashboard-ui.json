@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -159,11 +160,11 @@
          "Do nothing": [
             "Niets doen"
          ],
-         "You need credits to use automatic translation.": [
-            "Je hebt credits nodig om automatische vertaling te gebruiken."
-         ],
          "To assign content to a translator, first <a href=\"%s\" target=\"_blank\">add a translator</a> or <a href=\"%s\" target=\"_blank\">connect to a translation service</a>.": [
             "Om inhoud aan een vertaler toe te wijzen, moet je eerst <a href=\"%s\" target=\"_blank\">een vertaler toevoegen</a> of <a href=\"%s\" target=\"_blank\">verbinding maken met een vertaaldienst</a>."
+         ],
+         "You need credits to use automatic translation.": [
+            "Je hebt credits nodig om automatische vertaling te gebruiken."
          ],
          "Translators Tab": [
             "Tabblad Vertalers"

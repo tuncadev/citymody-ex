@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "There was an error when trying to pause your Automatic Translation. Please try again later or contact our support.": [
@@ -89,10 +90,6 @@
          ],
          "Start translating everything": [
             "Jetzt alles übersetzen"
-         ],
-         "%1$d language": [
-            "%1$d Sprache",
-            "%1$d Sprachen"
          ],
          "Please wait...": [
             "Bitte warten..."
@@ -383,7 +380,7 @@
             " (erforderlich)"
          ],
          "Please fill in the field": [
-            "Bitte füllen Sie das Feld aus"
+            "Bitte füllen Sie das Feld aus."
          ],
          "PNG, SVG, or JPG files": [
             "PNG-, SVG- oder JPG-Dateien"
@@ -443,7 +440,7 @@
             "Wenn Sie die Sprachen, die Sie brauchen, nicht in der Liste finden können"
          ],
          "create a custom language": [
-            "erstellen Sie eine benutzerdefinierte Sprache"
+            "Erstellen einer benutzerdefinierten Sprache"
          ],
          "What are the languages of your site?": [
             "Welche Sprachen werden auf Ihrer Website verwendet?"
@@ -505,8 +502,8 @@
          "Let WPML do the translating for you.": [
             "Überlassen Sie die Übersetzung WPML."
          ],
-         "You need to have a valid account in order to continue.": [
-            "Sie müssen ein gültiges Konto haben, um fortfahren zu können."
+         "To use automatic translation, <a>sign up for pay-as-you-go</a> or <a2>assign credits to your site</a2>.": [
+            "Um die automatische Übersetzung zu verwenden, <a>melden Sie sich für Pay-as-you-go an</a> oder <a2>weisen Sie Ihrer Website Credits zu</a2>."
          ],
          "There was an error when loading the credit wizard.": [
             "Beim Laden des Credit-Assistenten ist ein Fehler aufgetreten."
@@ -606,6 +603,9 @@
          ],
          "Ranking": [
             "Ranking"
+         ],
+         "You need to have a valid account in order to continue.": [
+            "Sie müssen ein gültiges Konto haben, um fortfahren zu können."
          ]
       }
    }

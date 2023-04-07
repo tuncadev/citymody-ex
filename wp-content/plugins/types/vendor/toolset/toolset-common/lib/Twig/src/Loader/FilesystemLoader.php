@@ -32,7 +32,7 @@ class FilesystemLoader implements \OTGS\Toolset\Twig\Loader\LoaderInterface, \OT
     public function __construct($paths = [], $rootPath = null)
     {
         $this->rootPath = (null === $rootPath ? \getcwd() : $rootPath) . \DIRECTORY_SEPARATOR;
-        if (\false !== ($realPath = \realpath($rootPath))) {
+		if (null !== $rootPath && false !== ($realPath = \realpath($rootPath))) {
             $this->rootPath = $realPath . \DIRECTORY_SEPARATOR;
         }
         if ($paths) {

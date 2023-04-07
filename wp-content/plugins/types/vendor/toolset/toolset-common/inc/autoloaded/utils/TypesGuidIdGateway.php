@@ -68,6 +68,9 @@ class TypesGuidIdGateway {
 			return false;
 		}
 
+		// Note: this method below NEVER supported a second arg. Wow.
+		// Anyway, this class was removed very long ago from Types, so no problem.
+		// This means that it will rarely return NULL here, so we can assume FALSE always.
 		return $wpcf_guid_id->get_id_by_guid( $guid, $allow_to_return_null );
 	}
 

@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "You can choose which posts to translate from the <strong>Translation Management Dashboard</strong>.": [
@@ -37,7 +38,7 @@
             "Συμφωνείτε να πληρώσετε για αυτήν την υπηρεσία;"
          ],
          "Cancel": [
-            "Άκυρο"
+            "Ακύρωση"
          ],
          "Make translatable": [
             "Να καταστούν μεταφράσιμες"

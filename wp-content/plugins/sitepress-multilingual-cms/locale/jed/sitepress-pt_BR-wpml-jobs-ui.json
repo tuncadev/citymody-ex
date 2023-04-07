@@ -4,6 +4,7 @@
       "messages": {
          "": {
             "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
             "lang": "en"
          },
          "Draft — Pending review": [
@@ -20,6 +21,9 @@
          ],
          "Cancel job": [
             "Cancelar trabalho"
+         ],
+         "Continue reviewing": [
+            "Continuar revisando"
          ],
          "Start downloading XLIFF file": [
             "Comece a baixar o arquivo XLIFF"
@@ -93,6 +97,12 @@
          "Published — Pending review": [
             "Revisão pendente"
          ],
+         "Published — Review in progress": [
+            "Publicada — revisão em andamento"
+         ],
+         "Draft — Review in progress": [
+            "Rascunho — revisão em andamento"
+         ],
          "Needs update": [
             "Precisa ser atualizado"
          ],
@@ -107,6 +117,9 @@
          ],
          "(no title)": [
             "(sem título)"
+         ],
+         "Automatic translation": [
+            "Tradução Automática"
          ],
          "TP ID: %d": [
             "ID do TP: %d"
@@ -177,6 +190,9 @@
          "Sort ascending": [
             "Classificar em ordem crescente"
          ],
+         "Cancel sorting": [
+            "Cancelar ordem"
+         ],
          "The bulk action is running...": [
             "A ação em massa está em execução..."
          ],
@@ -222,6 +238,9 @@
          "Batch name": [
             "Nome do lote"
          ],
+         "Filter by %s": [
+            "Filtrar por %s"
+         ],
          "Title": [
             "Título"
          ],
@@ -242,6 +261,9 @@
          ],
          "This action does not apply to any of the selected translation jobs": [
             "Esta ação não se aplica a nenhum dos trabalhos de tradução selecionados"
+         ],
+         "Translations have been downloaded": [
+            "As traduções foram baixadas"
          ],
          "Translation has been downloaded": [
             "A tradução foi baixada"
