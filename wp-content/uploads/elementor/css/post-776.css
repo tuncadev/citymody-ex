@@ -1,0 +1,16 @@
+.elementor-776 .elementor-element.elementor-element-1da907cb{border-style:solid;border-width:0px 0px 1px 0px;border-color:#E4E0EE;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-776 .elementor-element.elementor-element-1da907cb, .elementor-776 .elementor-element.elementor-element-1da907cb > .elementor-background-overlay{border-radius:0px 0px 0px 0px;}.elementor-776 .elementor-element.elementor-element-1da907cb > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion-item{border-width:0px;border-color:#E4E0EE;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion-item .elementor-tab-content{border-width:0px;border-top-color:#E4E0EE;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion-item .elementor-tab-title.elementor-active{border-width:0px;border-bottom-color:#E4E0EE;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion-icon, .elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion-title{color:#576370;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion-icon svg{fill:#576370;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-active .elementor-accordion-icon, .elementor-776 .elementor-element.elementor-element-5904a25f .elementor-active .elementor-accordion-title{color:#15A6DE;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-active .elementor-accordion-icon svg{fill:#15A6DE;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion-title{font-family:"Source Sans Pro", Sans-serif;font-size:20px;font-weight:600;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-tab-title .elementor-accordion-icon i:before{color:#576370;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-tab-title .elementor-accordion-icon svg{fill:#576370;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-tab-title.elementor-active .elementor-accordion-icon i:before{color:#15A6DE;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-tab-title.elementor-active .elementor-accordion-icon svg{fill:#15A6DE;}.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-tab-content{color:#677294;font-family:"Source Sans Pro", Sans-serif;font-size:17px;font-weight:400;}/* Start custom CSS for accordion, class: .elementor-element-5904a25f */.elementor-776 .elementor-element.elementor-element-5904a25f p {
+    font-size: 17px;
+}
+.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion .elementor-accordion-item {
+    border-bottom: 1px solid #e4e0ee;
+}
+.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion .elementor-accordion-item:first-child {
+    border-top: solid 1px #ddd;
+}
+.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion-icon-closed i::before {
+    font-size: 13px;
+
+}
+.elementor-776 .elementor-element.elementor-element-5904a25f .elementor-accordion-icon-opened i::before {
+    font-size: 13px;
+}/* End custom CSS */

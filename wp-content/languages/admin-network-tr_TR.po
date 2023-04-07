@@ -1,15 +1,19 @@
-# Translation of WordPress - 6.1.x - Development - Administration - Network Admin in Turkish
-# This file is distributed under the same license as the WordPress - 6.1.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.2.x - Development - Administration - Network Admin in Turkish
+# This file is distributed under the same license as the WordPress - 6.2.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-23 10:16:11+0000\n"
+"PO-Revision-Date: 2023-03-04 14:38:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: tr\n"
-"Project-Id-Version: WordPress - 6.1.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.2.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/includes/network.php:648
+msgid "https://wordpress.org/documentation/article/nginx/"
+msgstr "https://wordpress.org/documentation/article/nginx/"
 
 #: wp-admin/includes/network.php:556
 msgid "Network configuration authentication keys"
@@ -41,18 +45,18 @@ msgid "You should back up your existing %1$s and %2$s files."
 msgstr "Mevcut %1$s ve %2$s dosyalarınızı yedeklemelisiniz."
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:722
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:730
 msgid "Visit theme site for %s"
 msgstr "%s için tema sitesini ziyaret edin"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:735
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:743
 msgid "Child theme of %s"
 msgstr "%s temasının alt teması"
 
 #: wp-admin/network/settings.php:64
-msgid "<a href=\"https://wordpress.org/support/article/network-admin-settings-screen/\">Documentation on Network Settings</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/network-admin-settings-screen/\">Ağ ayarları hakkında belgeler</a>"
+msgid "<a href=\"https://wordpress.org/documentation/article/network-admin-settings-screen/\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/network-admin-settings-screen/\">Ağ ayarları hakkında belgeler</a>"
 
 #: wp-admin/network/site-info.php:185
 msgctxt "site"
@@ -88,13 +92,9 @@ msgstr "Şu anda kullanılabilir tema yok."
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:476
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:497
-#: wp-admin/includes/class-wp-ms-users-list-table.php:341
+#: wp-admin/includes/class-wp-ms-users-list-table.php:344
 msgid "Y/m/d g:i:s a"
 msgstr "Y/m/d H:i:s"
-
-#: wp-admin/includes/network.php:648
-msgid "https://wordpress.org/support/article/nginx/"
-msgstr "https://wordpress.org/support/article/nginx/"
 
 #. translators: %s: Documentation URL.
 #: wp-admin/includes/network.php:647
@@ -146,12 +146,12 @@ msgstr[0] "Tümü <span class=\"count\">(%s)</span>"
 msgstr[1] "Tümü <span class=\"count\">(%s)</span>"
 
 #: wp-admin/network/upgrade.php:32
-msgid "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">Documentation on Upgrade Network</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">Ağ güncellemesi konusunda belgeler</a>"
+msgid "<a href=\"https://wordpress.org/documentation/article/network-admin-updates-screen/\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/network-admin-updates-screen/\">Ağ güncellemesi konusunda belgeler</a>"
 
 #: wp-admin/network/index.php:56
-msgid "<a href=\"https://wordpress.org/support/article/network-admin/\">Documentation on the Network Admin</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/network-admin/\">Ağ yöneticisi belgesi</a>"
+msgid "<a href=\"https://wordpress.org/documentation/article/network-admin/\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/network-admin/\">Ağ yöneticisi belgesi</a>"
 
 #. translators: %s: Number of themes.
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:405
@@ -166,12 +166,12 @@ msgid "Main"
 msgstr "Asıl"
 
 #: wp-admin/network.php:69 wp-admin/network.php:82
-msgid "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">Documentation on the Network Screen</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">Ağ ekranı belgeleri</a>"
+msgid "<a href=\"https://wordpress.org/documentation/article/tools-network-screen/\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/tools-network-screen/\">Ağ ekranı belgeleri</a>"
 
 #: wp-admin/network.php:68 wp-admin/network.php:81
-msgid "<a href=\"https://wordpress.org/support/article/create-a-network/\">Documentation on Creating a Network</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/create-a-network/\">Ağ oluşturma belgesi</a>"
+msgid "<a href=\"https://wordpress.org/documentation/article/create-a-network/\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/create-a-network/\">Ağ oluşturma belgesi</a>"
 
 #. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
 #: wp-admin/includes/network.php:118
@@ -203,7 +203,7 @@ msgstr "Alt alan adı yüklemesi"
 msgid "Sub-directory Installation"
 msgstr "Alt dizin yüklemesi"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:922
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:930
 msgid "Active Child Theme"
 msgstr "Etkin alt tema"
 
@@ -212,7 +212,7 @@ msgid "Attributes"
 msgstr "Özellikler"
 
 #. translators: %s: File size in kilobytes.
-#: wp-admin/network/settings.php:424
+#: wp-admin/network/settings.php:432
 msgid "%s KB"
 msgstr "%s KB"
 
@@ -246,11 +246,11 @@ msgstr "Üzgünüm, bu ağa site eklemenize izin verilmiyor."
 msgid "Sorry, you are not allowed to edit this site."
 msgstr "Üzgünüm, bu siteyi düzenlemenize izin verilmiyor."
 
-#: wp-admin/network/settings.php:374
+#: wp-admin/network/settings.php:379
 msgid "The email address of the first comment author on a new site."
 msgstr "Yeni bir sitedeki ilk yorumun yazarının e-posta adresi."
 
-#: wp-admin/network/settings.php:370
+#: wp-admin/network/settings.php:375
 msgid "First Comment Email"
 msgstr "İlk yorum e-postası"
 
@@ -354,46 +354,46 @@ msgctxt "user"
 msgid "Mark as spam"
 msgstr "İstenmeyen olarak işaretle"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:728
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:736
 msgid "Visit Theme Site"
 msgstr "Tema sitesini ziyaret et "
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:691
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:699
 msgid "Broken Theme:"
 msgstr "Bozuk tema:"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:597
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:605
 msgid "Network Disable %s"
 msgstr "%s temasını ağda etkisizleştir"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:594
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:602
 msgid "Disable %s"
 msgstr "%s temasını etkisizleştir"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:571
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:579
 msgid "Network Enable %s"
 msgstr "%s temasını ağda etkinleştir"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:568
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:576
 msgid "Enable %s"
 msgstr "Etkinleştir %s"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:470
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:604
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:612
 msgid "Network Disable"
 msgstr "Ağı etkisizleştir"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:470
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:604
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:612
 msgid "Disable"
 msgstr "Etkisizleştir"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:467
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:578
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:586
 msgid "Enable"
 msgstr "Etkinleştir"
 
@@ -498,12 +498,12 @@ msgstr "İstenmeyen"
 msgid "Archived"
 msgstr "Arşivlenmiş"
 
-#: wp-admin/network/site-users.php:356 wp-admin/network/user-new.php:137
+#: wp-admin/network/site-users.php:356 wp-admin/network/user-new.php:134
 msgid "A password reset link will be sent to the user via email."
 msgstr "Parola sıfırlama bağlantısı kullanıcıya e-posta ile gönderilecek"
 
 #. translators: 1: NOBLOGREDIRECT, 2: wp-config.php
-#: wp-admin/network/settings.php:212
+#: wp-admin/network/settings.php:217
 msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
 msgstr "Eğer kayıtlar kapalıysa lütfen %2$s içindeki %1$s değerini ziyaretçileriniz var olmayan bir siteye girdiklerinde yönlendirebileceğiniz bir adres olarak belirleyin."
 
@@ -656,23 +656,27 @@ msgstr "Bu temalar ağdaki diğer sitelerde etkin durumda olabilir."
 msgid "Delete Themes"
 msgstr "Temaları sil"
 
-#: wp-admin/network/site-info.php:197
+#. translators: Hidden accessibility text.
+#: wp-admin/network/site-info.php:200
 msgid "Set site attributes"
 msgstr "Site özelliklerini belirle"
 
-#: wp-admin/network/settings.php:496
+#. translators: Hidden accessibility text.
+#: wp-admin/network/settings.php:509
 msgid "Enable menus"
 msgstr "Menüleri etkinleştir"
 
-#: wp-admin/network/settings.php:429
+#. translators: Hidden accessibility text.
+#: wp-admin/network/settings.php:439
 msgid "Size in kilobytes"
 msgstr "Kilobayt cinsinden boyut"
 
-#: wp-admin/network/settings.php:413
+#: wp-admin/network/settings.php:421
 msgid "Allowed file types. Separate types by spaces."
 msgstr "İzin verilen dosya tipleri. Tipleri boşluk karakteri ile ayırın."
 
-#: wp-admin/network/settings.php:202
+#. translators: Hidden accessibility text.
+#: wp-admin/network/settings.php:205
 msgid "New registrations settings"
 msgstr "Yeni üyelik ayarları"
 
@@ -759,11 +763,11 @@ msgstr "Alt dizin ağları özel wp-content dizinleri ile tam anlamıyla uyumlu 
 msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
 msgstr "Belirtilen kodları wp-config.php dosyasına (<code>/*...düzenlemeyi bırakın...*/</code> kısmından hemen önce) ve <code>.htaccess</code> dosyasına ekleyin. (Var olan WordPress kurallarını değiştirin)"
 
-#: wp-admin/network/settings.php:440
+#: wp-admin/network/settings.php:451
 msgid "Language Settings"
 msgstr "Dil ayarları"
 
-#: wp-admin/network/settings.php:238
+#: wp-admin/network/settings.php:243
 msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page"
 msgstr "Site yöneticilerinin kendi sitelerine \"Kullanıcılar &rarr; Yeni ekle\" sayfasından yeni kullanıcı eklemelerine izin ver."
 
@@ -900,7 +904,7 @@ msgstr "Site düzenleme ekranını ayıracak düzenleme bağlantısı"
 msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
 msgstr "Yeni ekle sizi yeni site ekleme ekranına taşır. Bir siteyi ismi, numarası ya da IP adresi ile arayabilirsiniz. Ekran seçenekleri ile bir sayfada kaç tane site görüntüleneceğini ayarlayabilirsiniz."
 
-#: wp-admin/network/site-users.php:319 wp-admin/network/user-new.php:149
+#: wp-admin/network/site-users.php:319 wp-admin/network/user-new.php:146
 msgid "Add User"
 msgstr "Kullanıcı ekle"
 
@@ -1181,11 +1185,11 @@ msgstr "Bu kelimeler WordPress fonksiyonları için ayrılmıştır, dolayısıy
 msgid "If your browser does not start loading the next page automatically, click this link:"
 msgstr "Eğer tarayıcınız bir sonraki sayfayı otomatik olarak yüklemezse bu bağlantıyı tıklayın:"
 
-#: wp-admin/network/settings.php:301
+#: wp-admin/network/settings.php:306
 msgid "If you want to ban domains from site registrations. One domain per line."
 msgstr "Eğer belirli alan adlarını kayıt sırasında yasaklamak istiyorsanız her satıra bir alan adı gelecek şekilde giriş yapın."
 
-#: wp-admin/network/settings.php:281
+#: wp-admin/network/settings.php:286
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "Eğer site kayıtlarını belirli alan adları ile sınırlandırmak istiyorsanız her satıra bir alan adı gelecek şekilde giriş yapın."
 
@@ -1249,32 +1253,32 @@ msgstr "Üzgünüm, mevcut siteyi değiştirmenize izin verilmiyor."
 msgid "There was an error creating the user."
 msgstr "Kullanıcı oluşturulurken hata oluştu."
 
-#: wp-admin/network/settings.php:409
+#: wp-admin/network/settings.php:417
 msgid "Upload file types"
 msgstr "Yükleme dosya tipleri"
 
 #. translators: %s: Number of megabytes to limit uploads to.
-#: wp-admin/network/settings.php:397
+#: wp-admin/network/settings.php:402
 msgid "Limit total size of files uploaded to %s MB"
 msgstr "YÜklenebilecek dosyaların toplam boyutunu %s MB ile sınırla"
 
-#: wp-admin/network/settings.php:383
+#: wp-admin/network/settings.php:388
 msgid "The URL for the first comment on a new site."
 msgstr "Oluşturulacak yeni sitedeki ilk yorumun web adresi."
 
-#: wp-admin/network/settings.php:365
+#: wp-admin/network/settings.php:370
 msgid "The author of the first comment on a new site."
 msgstr "Oluşturulacak yeni sitedeki ilk yorumun sahibi."
 
-#: wp-admin/network/settings.php:356
+#: wp-admin/network/settings.php:361
 msgid "The first comment on a new site."
 msgstr "Yeni bir sitedeki ilk yorum."
 
-#: wp-admin/network/settings.php:346
+#: wp-admin/network/settings.php:351
 msgid "The first page on a new site."
 msgstr "Yeni bir sitedeki ilk yazı."
 
-#: wp-admin/network/settings.php:336
+#: wp-admin/network/settings.php:341
 msgid "The first post on a new site."
 msgstr "Yeni bir sitedeki ilk yazı."
 
@@ -1282,31 +1286,31 @@ msgstr "Yeni bir sitedeki ilk yazı."
 msgid "All done!"
 msgstr "Hepsi tamam!"
 
-#: wp-admin/network/settings.php:206
+#: wp-admin/network/settings.php:211
 msgid "Both sites and user accounts can be registered"
 msgstr "Hem siteler hem de kullanıcı hesapları kayıt edilebilir."
 
-#: wp-admin/network/settings.php:205
+#: wp-admin/network/settings.php:210
 msgid "Logged in users may register new sites"
 msgstr "Giriş yapmış kullanıcılar yeni site kaydedebilirler."
 
-#: wp-admin/network/settings.php:204
+#: wp-admin/network/settings.php:209
 msgid "User accounts may be registered"
 msgstr "Kullanıcı hesapları kayıt edilebilir."
 
-#: wp-admin/network/settings.php:203
+#: wp-admin/network/settings.php:208
 msgid "Registration is disabled"
 msgstr "Kayıt olma devre dışı."
 
-#: wp-admin/network/settings.php:493
+#: wp-admin/network/settings.php:504
 msgid "Enable administration menus"
 msgstr "Yönetim menülerini etkinleştir"
 
-#: wp-admin/network/settings.php:388
+#: wp-admin/network/settings.php:393
 msgid "Upload Settings"
 msgstr "Yükleme ayarları"
 
-#: wp-admin/network/settings.php:307
+#: wp-admin/network/settings.php:312
 msgid "New Site Settings"
 msgstr "Yeni site ayarları"
 
@@ -1330,19 +1334,19 @@ msgstr "Eksik ya da yanlış site adresi."
 msgid "Next Sites"
 msgstr "Sonraki siteler"
 
-#: wp-admin/network/settings.php:391
+#: wp-admin/network/settings.php:396
 msgid "Site upload space"
 msgstr "Site yükleme alanı"
 
-#: wp-admin/network/settings.php:316
+#: wp-admin/network/settings.php:321
 msgid "The welcome email sent to new site owners."
 msgstr "Yeni site sahiplerine gönderilecek hoşgeldiniz e-postası."
 
-#: wp-admin/network/settings.php:256
+#: wp-admin/network/settings.php:261
 msgid "Users are not allowed to register these sites. Separate names by spaces."
 msgstr "Kullanıcılar bu siteleri kayıt edemeyecekler. Boşluk ile ayırın."
 
-#: wp-admin/network/settings.php:231
+#: wp-admin/network/settings.php:236
 msgid "Send the network admin an email notification every time someone registers a site or user account"
 msgstr "Yeni bir site ya da kullanıcı hesabı oluşturulduğunda ağ yöneticisine e-posta ile bildirim gönder."
 
@@ -1362,59 +1366,59 @@ msgstr "Yönetici e-posta adresi"
 msgid "Add Site"
 msgstr "Site ekle"
 
-#: wp-admin/network/settings.php:443
+#: wp-admin/network/settings.php:454
 msgid "Default Language"
 msgstr "Varsayılan dil"
 
-#: wp-admin/network/settings.php:419
+#: wp-admin/network/settings.php:427
 msgid "Max upload file size"
 msgstr "Yüklenebilecek en büyük dosya boyutu"
 
-#: wp-admin/network/settings.php:379
+#: wp-admin/network/settings.php:384
 msgid "First Comment URL"
 msgstr "İlk yorum adresi"
 
-#: wp-admin/network/settings.php:361
+#: wp-admin/network/settings.php:366
 msgid "First Comment Author"
 msgstr "İlk yorum yazarı"
 
-#: wp-admin/network/settings.php:351
+#: wp-admin/network/settings.php:356
 msgid "First Comment"
 msgstr "İlk yorum"
 
-#: wp-admin/network/settings.php:341
+#: wp-admin/network/settings.php:346
 msgid "First Page"
 msgstr "İlk sayfa"
 
-#: wp-admin/network/settings.php:326
+#: wp-admin/network/settings.php:331
 msgid "The welcome email sent to new users."
 msgstr "Yeni kullanıcılara gönderilecek hoşgeldiniz mesajı."
 
-#: wp-admin/network/settings.php:321
+#: wp-admin/network/settings.php:326
 msgid "Welcome User Email"
 msgstr "Hoşgeldiniz e-postası"
 
-#: wp-admin/network/settings.php:311
+#: wp-admin/network/settings.php:316
 msgid "Welcome Email"
 msgstr "Hoşgeldiniz e-postası"
 
-#: wp-admin/network/settings.php:287
+#: wp-admin/network/settings.php:292
 msgid "Banned Email Domains"
 msgstr "Engellenmiş e-posta alan adları"
 
-#: wp-admin/network/settings.php:262
+#: wp-admin/network/settings.php:267
 msgid "Limited Email Registrations"
 msgstr "Sınırlı e-posta kaydı"
 
-#: wp-admin/network/settings.php:243
+#: wp-admin/network/settings.php:248
 msgid "Banned Names"
 msgstr "Engellenmiş İsimler"
 
-#: wp-admin/network/settings.php:236
+#: wp-admin/network/settings.php:241
 msgid "Add New Users"
 msgstr "Yeni kullanıcılar ekle"
 
-#: wp-admin/network/settings.php:224
+#: wp-admin/network/settings.php:229
 msgid "Registration notification"
 msgstr "Kayıt bildirimi"
 

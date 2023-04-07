@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-16 10:04:20+0000\n"
+"PO-Revision-Date: 2023-03-21 20:02:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7390,11 +7390,11 @@ msgctxt "Taxonomy name"
 msgid "Product type"
 msgstr "Ürün türü"
 
-#: includes/class-wc-install.php:1842
+#: includes/class-wc-install.php:1846
 msgid "Community support"
 msgstr "Topluluk desteği"
 
-#: includes/class-wc-install.php:1842
+#: includes/class-wc-install.php:1846
 msgid "Visit community forums"
 msgstr "Topluluk forumlarını ziyaret edin"
 
@@ -14751,13 +14751,13 @@ msgid "Payment complete event failed."
 msgstr "Siparişi tamamlama etkinliği başarısız oldu."
 
 #. translators: user role
-#: includes/class-wc-install.php:1535
+#: includes/class-wc-install.php:1539
 msgctxt "User role"
 msgid "Shop manager"
 msgstr "Mağaza yöneticisi"
 
 #. translators: user role
-#: includes/class-wc-install.php:1533
+#: includes/class-wc-install.php:1537
 msgctxt "User role"
 msgid "Customer"
 msgstr "Müşteri"
@@ -18946,7 +18946,7 @@ msgstr "Geçersiz varyasyon kimliği"
 msgid "Invalid tax class"
 msgstr "Geçersiz vergi sınıfı"
 
-#: includes/class-wc-install.php:1846
+#: includes/class-wc-install.php:1850
 msgid "Visit premium customer support"
 msgstr "Ayrıcalıklı müşteri desteğini ziyaret et"
 
@@ -21800,7 +21800,7 @@ msgid "No &quot;%s&quot; found"
 msgstr "&quot;%s&quot; bulunamadı"
 
 #. translators: 1: plugin name, 2: URL to WP plugin page.
-#: includes/class-wc-install.php:2002
+#: includes/class-wc-install.php:2006
 msgid "%1$s was installed but could not be activated. <a href=\"%2$s\">Please activate it manually by clicking here.</a>"
 msgstr "%1$s yüklendi ancak etkinleştirilemedi. <a href=\"%2$s\">Lütfen buraya tıklayarak etkinleştirin.</a>"
 
@@ -21808,7 +21808,7 @@ msgstr "%1$s yüklendi ancak etkinleştirilemedi. <a href=\"%2$s\">Lütfen buray
 #. manually.
 #. translators: 1: theme slug, 2: error message, 3: URL to install theme
 #. manually.
-#: includes/class-wc-install.php:1974 includes/class-wc-install.php:2078
+#: includes/class-wc-install.php:1978 includes/class-wc-install.php:2082
 msgid "%1$s could not be installed (%2$s). <a href=\"%3$s\">Please install it manually by clicking here.</a>"
 msgstr "%1$s yüklenemedi (%2$s). <a href=\"%3$s\">Lütfen burayı tıklayın ve manuel olarak yükleyin.</a>"
 
@@ -28047,23 +28047,23 @@ msgctxt "Admin menu name"
 msgid "Categories"
 msgstr "Kategoriler"
 
-#: includes/class-wc-install.php:1846
+#: includes/class-wc-install.php:1850
 msgid "Premium support"
 msgstr "Ayrıcalıklı destek"
 
-#: includes/class-wc-install.php:1841
+#: includes/class-wc-install.php:1845
 msgid "API docs"
 msgstr "API belgelemesi"
 
-#: includes/class-wc-install.php:1841
+#: includes/class-wc-install.php:1845
 msgid "View WooCommerce API docs"
 msgstr "WooCommerce API belgelendirmesini görüntüle"
 
-#: includes/class-wc-install.php:1840
+#: includes/class-wc-install.php:1844
 msgid "View WooCommerce documentation"
 msgstr "WooCommerce belgelendirmesini görüntüle"
 
-#: includes/class-wc-install.php:1792
+#: includes/class-wc-install.php:1796
 msgid "View WooCommerce settings"
 msgstr "WooCommerce ayarlarını görüntüle"
 
@@ -32791,7 +32791,7 @@ msgstr "Teşekkürler :)"
 msgid "HTML email template"
 msgstr "HTML e-posta şablonu"
 
-#: includes/class-wc-install.php:1840
+#: includes/class-wc-install.php:1844
 #: assets/client/admin/chunks/marketing-overview.js:1
 msgid "Docs"
 msgstr "Dokümanlar"
@@ -35313,7 +35313,7 @@ msgstr "Yok satıldı"
 
 #: includes/admin/class-wc-admin-menus.php:95
 #: includes/admin/views/html-admin-page-status-report.php:691
-#: includes/class-wc-install.php:1792
+#: includes/class-wc-install.php:1796
 #: includes/react-admin/connect-existing-pages.php:35
 #: src/Admin/Features/Navigation/CoreMenu.php:126
 #: src/Internal/Admin/Analytics.php:305
